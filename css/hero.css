@@ -1,0 +1,96 @@
+.hero-section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.hero-heading{
+    width: 40%;
+    color: white;
+}
+
+.hero-heading h1{
+    font-size: 53px;
+}
+
+.hero-form{
+    width: 30%;
+    background-color: white;
+}
+
+.hero-form h1{
+    text-align: center;
+    margin-top: 10px;
+ }
+
+.hero-form-btns{
+    margin: 10px 0;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.oneway-btn, .bythehour-btn{
+    padding: 2% 10%;
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: 900;
+}
+
+.oneway-btn:hover, .bythehour-btn:hover{
+    background-color: transparent;
+    border: 1px solid #0e5ae7;
+    color: #0e5ae7;
+}
+
+.hero-input-container {
+    width: 200px; /* Adjust the width as needed */
+}
+
+.hero-input-box {
+    padding: 3% 10%;
+}
+
+.one-way form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-price-btn{
+    margin: 10px;
+    padding: 2% 25%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-weight: 900;
+    border: none;
+    background-color: #0e5ae7;
+    color: white;
+}
+.get-price-btn:hover{
+    background-color: #184db1;
+}
+
+
+ @media screen and (max-width: 1029px) {
+    .hero-section{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .hero-form{
+        width: 80%;
+        background-color: white;
+    }
+    .hero-heading{
+        width: 80%;
+        color: white;
+    }
+ }

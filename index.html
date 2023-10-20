@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iChauffeur</title>
+    <!-- Styles -->
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <!-- CDNS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -73,8 +76,43 @@
                 </div>
             </nav>
         </div>
-        <!-- nav -->
+        <!-- nav End -->
+        <!-- Hero -->
+        <section class="hero-section">
+            <!-- Heading -->
+            <div class="hero-heading">
+                <h1>YOUR PERSONAL <br> CHAUFFEUR SERVICE</h1>
+                <h3>AWARDED BEST UK CHAUFFEUR COMPANY</h3>
+            </div>
+            <!-- Form -->
+            <div class="hero-form">
+                <h1>GET A PRICE & BOOK</h1>
+
+                <div class="hero-form-btns">
+                    <button type="button" class="oneway-btn">One Way</button>
+                    <button type="button" class="bythehour-btn">By The Hour</button>
+                </div>
+                <!-- Section 1 way -->
+                <section class="one-way">
+                    <form action="#" method="post">
+
+                            <label for="address"><b>Where From?</b></label>
+                            <input type="text" class="hero-input-box" placeholder="Enter Collection Address">
+
+                        <br>
+                       
+                            <label for="address"><b>Where To?</b></label>
+                            <input type="text" class="hero-input-box" placeholder="Enter Detination Address">
+                            <input class="get-price-btn" type="submit" value="Get My Prices">
+                    </form>
+                </section>
+                <!-- Section by the hour -->
+                <section class="by-the-hour"></section>
+            </div>
+        </section>
+        <!-- Hero End -->
     </div>
+    <!-- Image Container End -->
     <script src="script/script.js"></script>
 </body>
 </html>
