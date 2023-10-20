@@ -47,6 +47,10 @@
     margin-top: 8%;
 }
 
+.cars-guide-title h1{
+    font-size: 48px;
+}
+
 /* price cards */
 .car-cards{
     display: flex;
@@ -67,6 +71,7 @@
 
 .price-card-image a img:hover{
     opacity: 75%;
+    width: 280px;
 }
 
 .price-card-info p span{
