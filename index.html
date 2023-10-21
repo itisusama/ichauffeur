@@ -348,8 +348,26 @@
         
     </section>
 
-    <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, distinctio. Odio officiis consequuntur ullam molestiae officia omnis fuga nemo nulla fugiat accusantium eaque minima quidem eum molestias, laudantium numquam quaerat.
+    <section class="slider-section">
+<div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="assets/slide1.PNG" alt="Slide 1"></div>
+            <div class="slide"><img src="assets/slide2.PNG" alt="Slide 2"></div>
+            <div class="slide"><img src="assets/slide3.PNG" alt="Slide 3"></div>
+            <div class="slide"><img src="assets/slide4.PNG" alt="Slide 4"></div>
+        </div>
+    </div>
+
+    <div class="slider-nav">
+        <button class="prev" onclick="moveSlider(-1)">&#10094;</button>
+        <div class="indicators">
+            <span class="indicator" onclick="showSlide(0)"></span>
+            <span class="indicator" onclick="showSlide(1)"></span>
+            <span class="indicator" onclick="showSlide(2)"></span>
+            <span class="indicator" onclick="showSlide(3)"></span>
+        </div>
+        <button class="next" onclick="moveSlider(1)">&#10095;</button>
+    </div>
     </section>
     <!-- Our Services Section -->
     <script src="script/script.js"></script>
