@@ -39,11 +39,11 @@ function showSlide(n) {
 
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
-        indicators[i].classList.remove("active");
+        indicators[i].classList.remove("slide-active");
     }
 
     slides[slideIndex].style.display = "block";
-    indicators[slideIndex].classList.add("active");
+    indicators[slideIndex].classList.add("slide-active");
 }
 
 showSlide(slideIndex);
