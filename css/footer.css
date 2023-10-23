@@ -1,0 +1,88 @@
+footer{
+    background-color: #111111;
+    padding: 10px 30px;
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 20%;
+}
+
+.logo-and-number{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-links{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover{
+    text-decoration: none;
+    color: #747474;
+}
+
+.footer-links ul li{
+    list-style: none;
+    margin-top: 0.9rem;
+}
+
+.footer-form{
+    background-color: #242424;
+    padding: 3%;
+    color: white;
+    width: 40%;
+}
+
+.footer-icons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-email{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #111111;
+    width: 80%;
+}
+
+.footer-app-download, .footer-social-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-app-download a:hover{
+ opacity: 75%;
+}
+
+
+.copyright{
+    margin-top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-bottom-list a{
+    text-decoration: none;
+    color: white;
+}
