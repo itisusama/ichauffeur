@@ -5,6 +5,8 @@
     padding: 2% 5%;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: -99;
 }
 
 .travel-heading h4{
