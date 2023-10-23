@@ -160,6 +160,19 @@ html,body{
         color: white;
         font-size: small;
     }
+
+    .mobile-menu-number{
+        font-size: 45px;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+    }
+
+    .mobile-menu-btn button{
+        width: 100%;
+        margin-bottom: 11px;
+    }
+
     /* .nav-menu {
         flex-direction: column;
         display: none;

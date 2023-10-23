@@ -291,6 +291,28 @@ video {
     background-clip: border-box;
 }
 
+/* CSS Styling for Page 2 */
+.image-container-cars{
+    background-image: url('../assets/chauffeur2.jpg');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+.chauffer-cars-section{
+    margin-top: 15%;
+    margin-left: 7%;
+    color: white;
+}
+
+.chauffer-cars-heading h1{
+    font-size: 54px;
+}
+
 @media screen and (max-width: 1029px) {
     .travel-bar{
         padding: 3% 0;
