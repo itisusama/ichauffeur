@@ -290,7 +290,6 @@ video {
     background-position: center;
     background-clip: border-box;
 }
-
 /* CSS Styling for Page 2 */
 .image-container-cars{
     background-image: url('../assets/chauffeur2.jpg');
@@ -311,6 +310,121 @@ video {
 
 .chauffer-cars-heading h1{
     font-size: 54px;
+}
+
+/* Vehicle cards */
+
+.vehicle-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.v-card{
+    width: 520px;
+    height: auto;
+}
+
+.v-card a{
+    text-decoration: none;
+    color: black;
+}
+
+.v-card-info{
+    margin-top: 30px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.v-card-specs{
+    width: 200px;
+}
+.v-card-specs img{
+    width: 20px;
+    height: 20px;
+}
+
+.price-card-info{
+    width: 280px;
+}
+
+.ourcars-chauffeur-image{
+    margin-top: 10px;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom, #121fcf15 8%, #181515 90%), url('../assets/chauffeur.jpg');;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+/* Slider Section */
+
+.ourcars-slider-section{
+    margin-top: 8%;
+}
+.ourcars-slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+.ourcars-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.ourcars-slide {
+    min-width: 100%;
+}
+
+.ourcars-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.ourcars-slider-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ourcars-slider-nav button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ourcars-slider-nav button:focus {
+    outline: none;
+}
+
+.ourcars-prev {
+    float: left;
+}
+
+.ourcars-next {
+    float: right;
+}
+
+.ourcars-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ourcars-indicator {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.ourcars-slide-active {
+    background-color: #000;
 }
 
 @media screen and (max-width: 1029px) {
