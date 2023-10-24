@@ -13,6 +13,10 @@
     color: #c7bcbc;
 }
 
+body{
+    background-color: #f7f7f7;
+}
+
 .chauffer-btn{   
     background-color: transparent;
     display: inline-block;
@@ -427,6 +431,69 @@ video {
     background-color: #000;
 }
 
+/* Chauffeur Page */
+.image-container-chauffeur{
+    background-image: url('../assets/Electric-Chauffeur.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+.join-team-section{
+    background-color: #181515;
+    padding: 8px;
+}
+
+.chauffeur-info-section{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chauffeur-details, .chauffeur-video{
+    width: 40%;
+}
+
+.c-test-cards{
+    margin-top: 15px;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.c-card{
+    width: 230px;
+    background-color: white;
+    padding: 25px;
+}
+
+.c-card img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.c-card-details{
+    text-align: left;
+}
+
+.c-card-details h4{
+    color:#b1b1b1;
+}
+.c-card-details p{
+    text-align: justify;
+}
+
+.c-cards-btn{
+    padding: 10px 20px;
+    margin: 10px;
+}
+
 @media screen and (max-width: 1029px) {
     .travel-bar{
         padding: 3% 0;
@@ -444,5 +511,20 @@ video {
     .video-info-para{
         width: 100%;
         margin: 0 auto;
+    }
+
+    .chauffeur-info-section{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .chauffeur-details{
+        text-align: center;
+    }
+
+    .chauffeur-details, .chauffeur-video{
+        width: 80%;
     }
 }
