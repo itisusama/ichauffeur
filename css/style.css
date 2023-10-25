@@ -1,3 +1,4 @@
+
 /* Travel Bar */
 .travel-bar{
     background-color: #222;
@@ -575,6 +576,86 @@ video {
     color: black;
 }
 
+/* Select Car Page*/
+.image-container-selectcar{
+    /* background-color: #ebf1f5; */
+    background-color: #222;
+    margin-top: -20px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+.select-car-section{
+    background-color: #e6e7ec;
+    padding: 8%;
+}
+
+.select-car-steps{
+    color: #2689ee;
+}
+
+.step-circles{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.step-circles .step2{
+    background-color: #2689ee;
+    color: white;
+}
+
+.step-circles p{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.car-icon-bar{
+    display: flex;
+    gap: 1rem;
+}
+.car-icon-bar img{
+    width: 20px;
+    height: 20px;
+}
+.journey-price{
+    padding: 20px;
+    background-color: #ebf1f5;
+    width: 200px;
+}
+
+.car-cards-section{
+    margin-top: 50px;
+}
+.select-car-btn{
+    border: none;
+    background-color: #0e5ae7;
+    color: white;
+    padding: 10px 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.cp-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cp-stuff{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
 
 @media screen and (max-width: 1029px) {
     .travel-bar{
