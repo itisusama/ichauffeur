@@ -852,6 +852,18 @@ video {
     object-fit: unset;
 }
 
+/* press and Media */
+.test-images{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.test-images img{
+    width: 40%;
+}
+
 @media screen and (max-width: 1029px) {
     .travel-bar{
         padding: 3% 0;
@@ -899,5 +911,15 @@ video {
         display: flex;
         flex-direction: column;
         gap: 2rem;
+    }
+
+    .test-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .test-images img{
+        width: 100%;
     }
 }
