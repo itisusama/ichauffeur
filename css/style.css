@@ -780,6 +780,21 @@ video {
     object-fit: unset;
 }
 
+/* Blog */
+.image-container-blog{
+    background-color: #181717;
+    height: 500px;
+    margin-top: -20px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+.blog-articles{
+    margin-top: 8%;
+}
 
 @media screen and (max-width: 1029px) {
     .travel-bar{
