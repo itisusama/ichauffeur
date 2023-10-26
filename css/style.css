@@ -768,6 +768,19 @@ video {
     width: 75%;
 }
 
+/* About Us Page */
+.image-container-aboutus{
+    background-image: url('../assets/rollsroyce.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+
 @media screen and (max-width: 1029px) {
     .travel-bar{
         padding: 3% 0;
