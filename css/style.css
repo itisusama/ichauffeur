@@ -657,6 +657,117 @@ video {
     margin-left: 10%;
 }
 
+/* Contact Page */
+.image-container-contact{
+    background-color: #181717;
+    height: 400px;
+    margin-top: -20px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+.contact-us-heading{
+    margin-top: 8%;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+.enquiry-section{
+    background-color: #e6e7ec;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Address-section{
+    background-color: #e6e7ec;
+    padding: 6%;
+}
+
+.enquiry-form{
+    width: 50%;
+}
+.enquiry-form input[type=text]{
+    border: 1px solid #555;
+    width: 80%;
+    padding: 10px 8px;
+  }
+
+.enquiry-form input[type=email]{
+    border: 1px solid #555;
+    width: 80%;
+    padding: 10px 8px;
+  }
+
+.enquiry-btn{
+    width: 80%;
+    border: none;
+    background-color: #0e5ae7;
+    color: white;
+    padding: 10px 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* Safety Page */
+.safety-section{
+    background-color: black;
+    padding: 8px;
+}
+
+/* Sustainability */
+.image-container-sustainability{
+    background-image: url('../assets/mountains.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+.sustainability-section{
+    background-color: #1e3a02;
+    padding: 8px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.image-slider-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mySlides img{
+    width: 90%;
+    height: 700px;
+    margin-left: 50px;
+}
+
+.chauffeur-video img{
+    width: 75%;
+}
+
 @media screen and (max-width: 1029px) {
     .travel-bar{
         padding: 3% 0;
