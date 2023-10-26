@@ -51,4 +51,3 @@ function showSlide(n) {
 }
 
 showSlide(slideIndex);
-
