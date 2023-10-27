@@ -950,6 +950,18 @@ video {
     width: 300px;
 }
 
+/* Business */
+.image-container-business{
+    background-image: url('../assets/business.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
 @media screen and (max-width: 1029px) {
 
     .box-images{
