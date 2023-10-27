@@ -892,6 +892,33 @@ video {
     line-height: 25px;
 }
 
+/* By the hour page */
+.price-card-info-new{
+    width: 100%;
+}
+
+
+.box-images{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.box-big-image img{
+    width: 547px;
+    height: 410px;
+}
+
+.box-small-images{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.box-small-images img{
+    width: 298px;
+    height: 199px;
+}
 @media screen and (max-width: 1029px) {
 
     .cities-and-prices{
