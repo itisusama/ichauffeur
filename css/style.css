@@ -932,6 +932,24 @@ video {
     object-fit: unset;
 }
 
+.airport-details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.airport-info ul li{
+    line-height: 25px;
+}
+.airport-info ul li a{
+    color: black;
+}
+
+.airport-image img{
+    width: 300px;
+}
+
 @media screen and (max-width: 1029px) {
 
     .box-images{
