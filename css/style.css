@@ -919,7 +919,37 @@ video {
     width: 298px;
     height: 199px;
 }
+
+/* Airport Page */
+.image-container-airport{
+    background-image: url('../assets/airport.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
 @media screen and (max-width: 1029px) {
+
+    .box-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-big-image img{
+        width: 600px;
+        height: 410px;
+    }
+    
+    .box-small-images img{
+        width: 600px;
+        height: 410px;
+    }
 
     .cities-and-prices{
         display: flex;
@@ -991,5 +1021,17 @@ video {
 
     .test-images img{
         width: 100%;
+    }
+}
+
+@media (max-width: 487px){
+    .box-big-image img{
+        width: 400px;
+        height: 310px;
+    }
+    
+    .box-small-images img{
+        width: 400px;
+        height: 310px;
     }
 }
