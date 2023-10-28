@@ -1023,6 +1023,20 @@ label {
     margin-right: 10px;
 }
 
+/* Events page */
+.event-paras{
+    padding: 4% 8%;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.e-para1, .e-para2{
+    width: 30%;
+    text-align: left;
+}
+
 @media screen and (max-width: 1029px) {
 
     .details-form-section{
