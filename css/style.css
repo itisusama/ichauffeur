@@ -1037,6 +1037,18 @@ label {
     text-align: left;
 }
 
+/* Tours */
+.image-container-tours{
+    background-image: url('../assets/tours.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
 @media screen and (max-width: 1029px) {
 
     .details-form-section{
