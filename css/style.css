@@ -628,7 +628,7 @@ video {
 .journey-price{
     padding: 20px;
     background-color: #ebf1f5;
-    width: 200px;
+    width: 300px;
 }
 
 .car-cards-section{
@@ -1050,9 +1050,20 @@ label {
 }
 
 .get-price-btn{
-    width: 100%;
+    width: 90%;
 }
 
+/* S Class */
+.image-container-sclass{
+    background-image: url('../assets/sclass.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
 @media screen and (max-width: 1029px) {
 
     .details-form-section{
