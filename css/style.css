@@ -962,8 +962,74 @@ video {
     object-fit: unset;
 }
 
+/* Events */
+.image-container-events{
+    background-image: url('../assets/events.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+/* Booking Details */
+.details-form-section{
+    display: flex;
+    gap: 2rem;
+}
+.booking-details-form{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.button {
+    background-color: #0f9dda;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.details-form input[type="text"],
+.details-form input[type="tel"],
+.details-form input[type="email"],
+.details-form input[type="number"],
+.details-form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label {
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 1029px) {
 
+    .details-form-section{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
     .box-images{
         display: flex;
         flex-direction: column;
