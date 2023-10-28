@@ -1049,6 +1049,10 @@ label {
     object-fit: unset;
 }
 
+.get-price-btn{
+    width: 100%;
+}
+
 @media screen and (max-width: 1029px) {
 
     .details-form-section{
