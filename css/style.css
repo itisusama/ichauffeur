@@ -1209,3 +1209,25 @@ label {
         height: 310px;
     }
 }
+
+@media (max-width: 500px){
+    .v-card a img{
+        width: 350px;
+    }
+
+    .v-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .v-card-info{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
