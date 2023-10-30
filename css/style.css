@@ -1064,6 +1064,31 @@ label {
     background-position: center;
     object-fit: unset;
 }
+
+/* Book Form */
+.book-form-section{
+    padding: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.book-form{
+    width: 300px;
+    background-color: white;
+}
+
+.book-form h1{
+    text-align: center;
+    margin-top: 10px;
+ }
+
+.book-form-btns{
+    margin: 10px 0;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1029px) {
 
     .details-form-section{
