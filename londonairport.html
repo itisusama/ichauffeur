@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="image-container-business">
+    <div class="image-container-airport">
         <!-- nav -->
         <div class="nav-container">
             <header id="navbar" class="navbar">
@@ -133,46 +133,228 @@
         </div>
         <!-- nav End -->
         <!-- Hero -->
-
-        <section class="chauffer-cars-section">
+        <section class="hero-section">
             <!-- Heading -->
-            <div class="chauffer-cars-heading">
-                <h1>BUSINESS CHAUFFEUR</h1>
-                <h3>ROADSHOWS, BUSINESS MEETINGS, HOSPITALITY</h3>
+            <div class="hero-heading">
+                <h1>HEATHROW CHAUFFEUR SERVICE</h1>
+                <h3>TRAVEL IN STYLE TO AND FROM ALL HEATHROW TERMINALS</h3>
                 <br><br>
-                <div class="travel-btn">
-                    <button type="button" class="chauffer-btn"><a href="businnessmeetings.html" style="text-decoration: none; color: white;">Business Meetings</a></button>
-                    <button type="button" class="chauffer-btn"><a href="financialroadshow.html" style="text-decoration: none; color: white;">Financial Roadshows</a></button>
+            </div>
+            <!-- Form -->
+            <div class="hero-form">
+                <h1>GET A PRICE & BOOK</h1>
+
+                <div class="hero-form-btns">
+                    <button type="button" class="oneway-btn" onclick="showOneWay()">One Way</button>
+                    <button type="button" class="bythehour-btn" onclick="showByTheHour()">By The Hour</button>
                 </div>
-            
+                <!-- Section 1 way -->
+                <section class="one-way">
+                    <form action="#" method="post">
+
+                            <label for="address"><b>Where From?</b></label>
+                            <input type="text" class="hero-input-box" placeholder="Enter Collection Address">
+
+                        <br>
+                       
+                            <label for="address"><b>Where To?</b></label>
+                            <input type="text" class="hero-input-box" placeholder="Enter Detination Address">
+                            <input class="get-price-btn" type="submit" value="Get My Prices">
+                    </form>
+                </section>
+                <!-- Section by the hour -->
+                <section class="by-the-hour">
+                    <form action="#" method="post">
+
+                        <label for="address"><b>Where From?</b></label>
+                        <input type="text" class="hero-input-box" placeholder="Enter Collection Address">
+
+                    <br>
+                   
+                        <label for="address"><b>How Long?</b></label>
+                        <input type="text" class="hero-input-box" placeholder="Enter Detination Address">
+                        <input class="get-price-btn" type="submit" value="Get My Prices">
+                </form>
+                </section>
             </div>
         </section>
         <!-- Hero End -->
     </div>
     <!-- Image Container End -->
    
-    <!-- Chauffeur Info Section -->
+        <!-- Interested in Joining Team -->
+        <section class="join-team-section">
+            <div class="cars-guide-title" style="color: white;">
+                <h1>HEATHROW AIRPORT <br> EXECUTIVE CAR TRANSFERS</h1>
+                <h4>Sub Heading Goes Here</h4>
+                <span>__________</span>
+                <br><br>
+                <p class="video-info-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat harum voluptatem doloribus, laudantium corporis ex? Ipsa ut aut quae consectetur?</p>
+                <br><br>
+        </section>
+    <!-- Interested in Joining Team -->
+
+        <!-- Cars Guide -->
+        <section class="cars-guide">
+            <div class="cars-guide-title">
+                <h1>Heading Goes Here</h1>
+                <h4>Sub Heading Goes Here</h4>
+                <span>__________</span>
+                <br><br>
+            </div>
+    
+            <!-- Cards -->
+            <div class="car-cards">
+                <!-- 1 -->
+                <div class="price-card">
+                    <div class="price-card-image">
+                        <a href="#"><img src="assets/car1.png" alt="Mercedes-s-class"></a>
+                    </div>
+                    <div class="price-card-info">
+                        <h1><strong>MERCEDES S-CLASS</strong></h1>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Hourly rate (minimum 3 hours)</span>
+                            <span><b>£65</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Day rate (8 hours)</span>
+                            <span><b>£520</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Heathrow to Central London</span>
+                            <span><b>£180</b></span>
+                        </p>
+                        <hr>
+                        <p>
+                            <small>Prices subject to VAT</small>
+                        </p>
+    
+                        <button type="button" class="get-price-btn"> BOOK THIS CAR</button>
+                        <br>
+                        <p style="text-align: center;"><a href="#" style="color: black;"> Find out more</a></p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="price-card">
+                    <div class="price-card-image">
+                        <a href="#"><img src="assets/car2.jpg" alt="Mercedes-v-class"></a>
+                    </div>
+                    <div class="price-card-info">
+                        <h1><strong>MERCEDES V-CLASS & EQV</strong></h1>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Hourly rate (minimum 3 hours)</span>
+                            <span><b>£65</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Day rate (8 hours)</span>
+                            <span><b>£520</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Heathrow to Central London</span>
+                            <span><b>£180</b></span>
+                        </p>
+                        <hr>
+                        <p>
+                            <small>Prices subject to VAT</small>
+                        </p>
+    
+                        <button type="button" class="get-price-btn"> BOOK THIS CAR</button>
+                        <br>
+                        <p style="text-align: center;"><a href="#" style="color: black;"> Find out more</a></p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="price-card">
+                    <div class="price-card-image">
+                        <a href="#"><img src="assets/car3.png" alt="Range Rover"></a>
+                    </div>
+                    <div class="price-card-info">
+                        <h1><strong>RANGE ROVER HYBRID</strong></h1>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Hourly rate (minimum 3 hours)</span>
+                            <span><b>£65</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Day rate (8 hours)</span>
+                            <span><b>£520</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Heathrow to Central London</span>
+                            <span><b>£180</b></span>
+                        </p>
+                        <hr>
+                        <p>
+                            <small>Prices subject to VAT</small>
+                        </p>
+    
+                        <button type="button" class="get-price-btn"> BOOK THIS CAR</button>
+                        <br>
+                        <p style="text-align: center;"><a href="#" style="color: black;"> Find out more</a></p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="price-card">
+                    <div class="price-card-image">
+                        <a href="#"><img src="assets/car1.png" alt="Mercedes-s-class"></a>
+                    </div>
+                    <div class="price-card-info">
+                        <h1><strong>MERCEDES S-CLASS</strong></h1>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Hourly rate (minimum 3 hours)</span>
+                            <span><b>£65</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Day rate (8 hours)</span>
+                            <span><b>£520</b></span>
+                        </p>
+                        <hr>
+                        <p style="display: flex; justify-content: space-between;">
+                            <span>Heathrow to Central London</span>
+                            <span><b>£180</b></span>
+                        </p>
+                        <hr>
+                        <p>
+                            <small>Prices subject to VAT</small>
+                        </p>
+    
+                        <button type="button" class="get-price-btn"> BOOK THIS CAR</button>
+                        <br>
+                        <p style="text-align: center;"><a href="#" style="color: black;"> Find out more</a></p>
+                    </div>
+                </div>
+                <!-- 5 -->
+            </div>
+            <!-- Cards -->
+        </section>
+        <!-- Cars Guide -->
+
+    <!-- Safety Info Section -->
     <section class="chauffeur-info-section">
         <div class="chauffeur-details">
-            <h1>FLEXIBLE, DISCREET AND SEAMLESS BUSINESS TRAVEL</h1>
-            <h4>BOOK ON-DEMAND AND IN ADVANCE</h4>
-            <span>__________</span><br>
-            <p>It's the small stuff we do that has always made a big impression. In today's climate, we know that business travellers will travel less, but travel better. Trust our award-winning service for your business travel.</p>
+            <h1>Heading Goes Here</h1>
+            <h4>Sub Heading Goes Here</h4>
+            <span>__________</span><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, autem doloribus ea placeat officiis saepe voluptates quae esse quaerat explicabo quam repellat accusamus nihil doloremque aliquam consectetur omnis unde molestias.</p> <br>
         </div>
+
         <div class="chauffeur-video">
-            <video controls>
-                <source src="https://www.ichauffeur.co.uk/wp-content/uploads/2021/05/chauffeurs.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <img src="assets/pasanger.webp" alt="passanger">
         </div>
     </section>
-    <!-- Chauffeur Info Section -->
+    <!-- Safety Info Section -->
 
     <!-- Section 2 -->
     <section class="benifits-section">
         <div class="cars-guide-title" style="color: black;">
-            <h1>DOES YOUR COMPANY TRAVEL <br> FOR BUSINESS?</h1>
-            <h4>COMMUTING, MEETINGS & BUSINESS TRIPS</h4>
+            <h1>Heading Goes Here</h1>
+            <h4>Sub Heading Goes Here</h4>
             <span>__________</span>
         </div>
             <br><br>
@@ -180,162 +362,86 @@
                 <!-- Teamwork -->
                 <div class="teamwork">
                     <img src="assets/teamwork.png" alt="team">
-                    <h2>WORLDWIDE COVERAGE</h2>
-                    <p>We operate across the whole of the world. From London to L.A. wherever you are, iChauffeur's global network will deliver to the high standards you expect.</p>
+                    <h2>FLIGHT MONITORING</h2>
+                    <p>We monitor your flight arrival time, so if your flight is early or delayed, we will meet you on time. Every time.</p>
                 </div>
                 <!-- Jobs -->
                 <div class="jobs">
                     <img src="assets/wallet.png" alt="jobs">
                     <h2>WAITING & PARKING INCLUDED</h2>
-                    <p>With everything you love about iChauffeur, only greener. Supreme luxury with less impact on the environment.</p>
+                    <p>We understand that on occasion you may need a little more time. Your airport transfer includes 60 mins waiting time & parking after the flight has landed.</p>
                 </div>
                 <!-- Revenue -->
                 <div class="revenue">
                     <img src="assets/hand-shake.png" alt="handshake">
-                    <h2>BOOK ON DEMAND OR IN ADVANCE</h2>
-                    <p>Book cars on demand or in advance through the office or online.</p>
+                    <h2>MEET AND GREET SERVICE</h2>
+                    <p>Your chauffeur will text you on arrival at the airport and greet you with a bespoke name-board. He will help you with your bags and provide a trolley if required.</p>
                 </div>
                 <!-- Payments -->
                 <div class="payment">
                     <img src="assets/check.png" alt="check">
-                    <h2>FLEXIBILITY</h2>
-                    <p>We're always on hand for last-minute itinerary changes or cancellations. Book additional cars, amend journeys, add new train or flight details.</p>
+                    <h2>PROFESSIONAL CHAUFFEUR</h2>
+                    <p>Your personal chauffeur will be impeccably dressed in a smart dark suit, shirt, and tie. Always professional & always on time.</p>
                 </div>
             </div>
             <br><br>
     </section>
     <!-- Section 2 -->
 
-        <!-- Section 2.5 -->
-        <section class="benifits-section">
-            <div class="cars-guide-title" style="color: black;">
-                <h1>CHAUFFEUR-DRIVEN BUSINESS TRAVEL</h1>
-                <h4>AIRPORT TRANSFERS FOR EXECUTIVES? BUSINESS MEETINGS <br> FOR MANAGEMENT? OVERSEAS DELEGATIONS?</h4>
-                <span>__________</span>
-            </div>
-                <br><br>
-                <div class="benifit-box">
-                    <!-- Teamwork -->
-                    <div class="teamwork">
-                        <img src="assets/teamwork.png" alt="team">
-                        <h2>GUEST BOOKING</h2>
-                        <p>If you are booking on behalf of someone else, we can register you as a booker, and you will receive all relevant info for their trip.</p>
-                    </div>
-                    <!-- Jobs -->
-                    <div class="jobs">
-                        <img src="assets/wallet.png" alt="jobs">
-                        <h2>PERSONAL ACCOUNT MANAGER</h2>
-                        <p>Ride-hailing apps are useful but you can't speak with anyone. Speak to your very own account manager by email or phone. Anytime.</p>
-                    </div>
-                    <!-- Revenue -->
-                    <div class="revenue">
-                        <img src="assets/hand-shake.png" alt="handshake">
-                        <h2>ADD YOUR CORPORATE CARD OR SET UP ACCOUNT-BASED BILLING</h2>
-                        <p>Free your employees from their monthly expense reports. A monthly invoice, secured by your credit card, is linked to your account. Invoices can be broken down for each employee or for whole departments.</p>
-                    </div>
-                    <!-- Payments -->
-                    <div class="payment">
-                        <img src="assets/check.png" alt="check">
-                        <h2>GIVE YOUR PA ACCESS TO OUR BESPOKE BOOKING PORTAL</h2>
-                        <p>Amend your jobs in your own time. From new flight details to cancellations.</p>
-                    </div>
-                </div>
-                <br><br>
-        </section>
-        <!-- Section 2.5 -->
-
-        <!-- Learn More -->
-        <section class="learn-more-section" style="background-color: #b9c9ce; padding: 5%;">
-               <!-- Section 3 -->
-                <section class="chauffeur-info-section">
-                    
-                    <div class="chauffeur-video">
-                        <img src="assets/pasanger.webp" alt="passanger">
-                    </div>
-
-                    <div class="chauffeur-details">
-                        <h1>BUSINESS MEETINGS</h1>
-                        <h4>WHERE CHAUFFEUR EXPERIENCE IS VITAL</h4>
-                        <span>__________</span><br><br>
-                        <p>Let iChauffeur concentrate on getting you to your appointment on time, so you can focus on your meeting, and nothing else.</p>
-                        <br><br>
-                            <div class="travel-btn">
-                                <button type="button" class="chauffer-btn">Learn More</button>
-                            </div>
-                    </div>
-                </section>
-                <!-- Section 3 -->
-                
-                <!-- Section 3.2 -->
-                <section class="chauffeur-info-section">
-
-                    <div class="chauffeur-details">
-                        <h1>FINANCIAL ROADSHOWS</h1>
-                        <h4>LET'S GET YOUR SHOW ON THE ROAD</h4>
-                        <span>__________</span><br><br>
-                        <p>Professional roadshow chauffeur service offering the most helpful operators in the business. Give us your itinerary and we will put it on the road.</p>
-                        <br><br>
-                            <div class="travel-btn">
-                                <button type="button" class="chauffer-btn">Learn More</button>
-                            </div>
-                    </div>
-
-                    <div class="chauffeur-video">
-                        <img src="assets/pasanger.webp" alt="passanger">
-                    </div>
-
-                </section>
-                <!-- Section 3.2 -->
-
-                <!-- Section 3.3 -->
-                <section class="chauffeur-info-section">
-                    
-                    <div class="chauffeur-video">
-                        <img src="assets/pasanger.webp" alt="passanger">
-                    </div>
-
-                    <div class="chauffeur-details">
-                        <h1>CORPORATE HOSPITALITY & PR</h1>
-                        <h4>FROM MINIBUSES TO BENTLEYS</h4>
-                        <span>__________</span><br><br>
-                        <p>Corporate hospitality offers you the chance to reward your valued clients with an experience they'll never forget. We pride ourselves on being a 'one-stop-shop' for all your transportation needs.</p>
-                        <br><br>
-                            <div class="travel-btn">
-                                <button type="button" class="chauffer-btn">Learn More</button>
-                            </div>
-                    </div>
-                </section>
-                <!-- Section 3.3 -->
-        </section>
-        <!-- Learn More -->
-
-        <!-- enquiry-section -->
-    <section class="enquiry-section" style="background-color: #111111; margin-top: 8%;">
-
-        <div class="cars-guide-title" style="color: white;">
-            <h1>ENQUIRE HERE</h1>
-            <h4>ALWAYS HERE TO HELP</h4>
-            <span>__________</span>
+    <!-- Section 3 -->
+    <section class="chauffeur-info-section" style="background-color: #b9c9ce; padding: 5%;">
+        
+        <div class="chauffeur-video">
+            <img src="assets/pasanger.webp" alt="passanger">
         </div>
 
-        <div class="enquiry-form" style="color: white;">
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name"><br>
-
-            <label for="name">Email</label><br>
-            <input type="email" id="email" name="email"><br>
-
-            <label for="enquiry">Enquire</label><br>
-            <textarea name="enquire" id="enquire" cols="70" rows="8"></textarea>
-            <br><br>
-            <input type="submit" value="SEND MY ENQUIRY" class="enquiry-btn">
-        </div>
-
-        <div class="travel-btn">
-            <button type="button" class="chauffer-btn"><a href="tell:+44 012 3456 7890" style="text-decoration: none; color: white;">Call Now</a></button>
+        <div class="chauffeur-details">
+            <h1>Heading Goes Here</h1>
+            <h4>Sub Heading Goes Here</h4>
+            <span>__________</span><br><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis minima laboriosam ad ducimus unde cupiditate eligendi repudiandae dolorem animi. Possimus, nam animi quae doloremque doloribus fuga ea. Magni, totam repellat.</p> <br>
+            <br>
         </div>
     </section>
-    <!-- enquiry-section -->
+    <!-- Section 3 -->
+
+    <!-- Section 5 -->
+    <section class="chauffeur-info-section" style="padding: 5%;">
+        
+        <div class="chauffeur-details">
+            <h1>Heading Goes Here</h1>
+            <h4>Sub Heading Goes Here</h4>
+            <span>__________</span><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eius odit vero, ducimus quibusdam sed voluptatum aspernatur a perferendis odio non vel, quis accusantium quia deserunt incidunt debitis. Sapiente, soluta?</p> <br>
+            <br>
+        </div>
+
+        <div class="chauffeur-video">
+            <img src="assets/pasanger.webp" alt="passanger">
+        </div>
+
+    </section>
+    <!-- Section 5 -->
+
+    <!-- Section 6 -->
+    <section class="join-team-section" style="background-color: #e6e7ec;">
+        <div class="cars-guide-title">
+            
+            <h1>Heading Goes Here</h1>
+            <h4>Sub Heading Goes Here</h4>
+            <span>__________</span>
+            <br><br>
+            <p class="video-info-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum dolores vitae quam culpa nihil voluptatibus nobis mollitia ab alias placeat consequatur dicta est, ratione ducimus in ipsam recusandae cupiditate!</p>
+            <br><br>
+            <p class="video-info-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum dolores vitae quam culpa nihil voluptatibus nobis mollitia ab alias placeat consequatur dicta est, ratione ducimus in ipsam recusandae cupiditate!</p>
+            <br><br>
+            
+            <div class="travel-btn">
+                <button type="button" class="chauffer-btn" style="background-color: #0f9dda; border: none;">Airport Transfers</button>
+            </div>
+            <br><br>  
+    </section>
+    <!-- Section 6 -->
 
     <!-- Footer -->
     <footer>
