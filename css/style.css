@@ -1387,5 +1387,29 @@ label {
         text-align: center;
         font-size: 28px;
     }
+    
 }
 
+/* Blog Buttons */
+.blog-prevandnext-btns {
+    text-align: center;
+    margin-top: -8%;
+}
+
+#cprevButton, #cnextButton{  
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    padding: 0px 16px;
+    border-radius: 50px;
+    background-color: #2222220d;
+    color: #222;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#cprevButton:hover, #cnextButton:hover {
+    background-color: #2222221a;
+}
