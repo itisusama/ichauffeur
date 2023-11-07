@@ -1,3 +1,6 @@
+html,body{
+    overflow-x: hidden;
+  }
 footer{
     background-color: #111111;
     padding: 10px 30px;
@@ -118,5 +121,11 @@ footer{
 
     .footer-form{
         width: 60%;
+    }
+}
+
+@media (max-width: 700px){
+    .footer-form{
+        width: 100%;
     }
 }

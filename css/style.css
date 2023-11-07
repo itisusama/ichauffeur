@@ -1,5 +1,186 @@
+body{
+    background-color: #f7f7f7;
+}
 
-/* Travel Bar */
+html,body{
+    overflow-x: hidden;
+  }
+
+/* START: Image Containers */
+.image-container-cars{
+    background-image: url('../assets/chauffeur2.jpg');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-chauffeur{
+    background-image: url('../assets/Electric-Chauffeur.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-partner{
+    background-image: url('../assets/partnerwithus.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-selectcar{
+    /* background-color: #ebf1f5; */
+    background-color: #222;
+    margin-top: -20px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-contact{
+    background-color: #181717;
+    height: 400px;
+    margin-top: -20px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-sustainability{
+    background-image: url('../assets/mountains.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-aboutus{
+    background-image: url('../assets/rollsroyce.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-blog{
+    background-color: #181717;
+    height: 500px;
+    margin-top: -20px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-faq{
+    background-image: url('../assets/faq.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-testimonial{
+    background-image: url('../assets/testimonial.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-oneway{
+    background-image: url('../assets/oneway.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-airport{
+    background-image: url('../assets/airport.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-business{
+    background-image: url('../assets/business.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-events{
+    background-image: url('../assets/events.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-tours{
+    background-image: url('../assets/tours.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-sclass{
+    background-image: url('../assets/sclass.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+.image-container-manchaster{
+    background-image: url('../assets/manchester-bridge.webp');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
+
+/* END: Image Containers */
+
+/* START: Travel Bar */
 .travel-bar{
     background-color: #222;
     color: white;
@@ -13,11 +194,9 @@
 .travel-heading h4{
     color: #c7bcbc;
 }
+/* END: Travel Bar */
 
-body{
-    background-color: #f7f7f7;
-}
-
+/* START: Chauffeur */
 .chauffer-btn{   
     background-color: transparent;
     display: inline-block;
@@ -47,8 +226,9 @@ body{
     background-color: white;
     border: none;
 }
+/* END: Chauffeur */
 
-/* Car Guide */
+/* START: Car Guide */
 .cars-guide-title{
     text-align: center;
     margin-top: 8%;
@@ -59,7 +239,7 @@ body{
     font-weight: 400;
 }
 
-/* price cards */
+/* START: price cards */
 .car-cards{
     display: flex;
     justify-content: space-evenly;
@@ -86,8 +266,10 @@ body{
     font-size: 13px;
     line-height: 30px;
 }
+/* END: price cards */
+/* END: Car Guide */
 
-/* Video Section */
+/* START: Video Section */
 .video-section {
     text-align: center;
     padding: 0 70px;
@@ -114,6 +296,7 @@ video {
     width: 45%;
     margin: 0 auto;
 }
+/* END: Video Section */
 
 .our-company-btn{
     margin-top: 30px;   
@@ -296,17 +479,6 @@ video {
     background-clip: border-box;
 }
 /* CSS Styling for Page 2 */
-.image-container-cars{
-    background-image: url('../assets/chauffeur2.jpg');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
 .chauffer-cars-section{
     margin-top: 15%;
     margin-left: 7%;
@@ -433,17 +605,6 @@ video {
 }
 
 /* Chauffeur Page */
-.image-container-chauffeur{
-    background-image: url('../assets/Electric-Chauffeur.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
 .join-team-section{
     background-color: #181515;
     padding: 8px;
@@ -488,6 +649,7 @@ video {
 }
 .c-card-details p{
     text-align: justify;
+    font-size: small;
 }
 
 .c-cards-btn{
@@ -496,16 +658,6 @@ video {
 }
 
 /* partner page */
-.image-container-partner{
-    background-image: url('../assets/partnerwithus.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
 .why-us-section{
     background-color: #e6e7ec;
     padding: 8px;
@@ -514,6 +666,7 @@ video {
 .benifit-box{
     margin-top: 15px;
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -577,17 +730,6 @@ video {
 }
 
 /* Select Car Page*/
-.image-container-selectcar{
-    /* background-color: #ebf1f5; */
-    background-color: #222;
-    margin-top: -20px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
 .select-car-section{
     background-color: #e6e7ec;
     padding: 8%;
@@ -658,17 +800,6 @@ video {
 }
 
 /* Contact Page */
-.image-container-contact{
-    background-color: #181717;
-    height: 400px;
-    margin-top: -20px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
 .contact-us-heading{
     margin-top: 8%;
     color: white;
@@ -718,6 +849,10 @@ video {
     border-bottom-left-radius: 30px;
 }
 
+#enquire{
+    width: 84%;
+}
+
 /* Safety Page */
 .safety-section{
     background-color: black;
@@ -725,16 +860,6 @@ video {
 }
 
 /* Sustainability */
-.image-container-sustainability{
-    background-image: url('../assets/mountains.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
 
 .sustainability-section{
     background-color: #1e3a02;
@@ -769,44 +894,12 @@ video {
 }
 
 /* About Us Page */
-.image-container-aboutus{
-    background-image: url('../assets/rollsroyce.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
-/* Blog */
-.image-container-blog{
-    background-color: #181717;
-    height: 500px;
-    margin-top: -20px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
 .blog-articles{
     margin-top: 8%;
 }
 
 /* Faq */
-.image-container-faq{
-    background-image: url('../assets/faq.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
+
 
 .accordion {
     background-color: transparent;
@@ -841,16 +934,7 @@ video {
   }
 
 /* Testimonial */
-.image-container-testimonial{
-    background-image: url('../assets/testimonial.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
+
 
 /* press and Media */
 .test-images{
@@ -865,16 +949,7 @@ video {
 }
 
 /* By the Hour */
-.image-container-oneway{
-    background-image: url('../assets/oneway.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
+
 
 .cities-and-prices{
     display: flex;
@@ -921,16 +996,7 @@ video {
 }
 
 /* Airport Page */
-.image-container-airport{
-    background-image: url('../assets/airport.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
+
 
 .airport-details{
     display: flex;
@@ -948,30 +1014,6 @@ video {
 
 .airport-image img{
     width: 300px;
-}
-
-/* Business */
-.image-container-business{
-    background-image: url('../assets/business.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
-/* Events */
-.image-container-events{
-    background-image: url('../assets/events.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 
 /* Booking Details */
@@ -1035,35 +1077,15 @@ label {
 .e-para1, .e-para2{
     width: 30%;
     text-align: left;
+    font-size: smaller;
 }
 
 /* Tours */
-.image-container-tours{
-    background-image: url('../assets/tours.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
-
 .get-price-btn{
     width: 90%;
 }
 
 /* S Class */
-.image-container-sclass{
-    background-image: url('../assets/sclass.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
 
 /* Book Form */
 .book-form-section{
@@ -1089,16 +1111,17 @@ label {
     justify-content: center;
 }
 
-/* Manchaster */
-.image-container-manchaster{
-    background-image: url('../assets/manchester-bridge.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
+.j-para-airport-info{
+    width: 30%; 
+    margin-left: 20%;
+}
+
+
+.financial-roadshow{
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 1029px) {
@@ -1196,6 +1219,19 @@ label {
     .test-images img{
         width: 100%;
     }
+
+    .chauffeur-video img{
+        width: 85%;
+    }
+
+    .enquiry-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 487px){
@@ -1208,6 +1244,15 @@ label {
         width: 400px;
         height: 310px;
     }
+    .chauffeur-video img{
+        width: 100%;
+    }
+
+    .j-para-airport-info{
+        width: 80%; 
+        margin-left: 10%;
+    }
+    
 }
 
 @media (max-width: 500px){
@@ -1230,13 +1275,49 @@ label {
         align-items: center;
         gap: 0.5rem;
     }
+
+    .car-icon-bar span{
+        font-size: 10px;
+    }
+
+    .cp-card img{
+        width: 410px;
+    }
+    .cp-stuff{
+        margin-left: 5%;
+    }
+
+    .cars-guide-title h1{
+        font-size: 30px;
+    }
+
+    .j-info-para{
+        margin-top: 30px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }   
+
+    .chauffeur-video img{
+        width: 100%;
+    }
+
+    .contact-us-heading{
+        margin-top: 8%;
+        color: white;
+        text-align: center;
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 700px){
+    .enquiry-form{
+        width: 100%;
+    }
     .mySlides img{
         width: 90%;
-        height: 400px;
-        margin-left: 30px;
+        height: 300px;
+        margin-left: 20px;
     }
     
     .chauffeur-video img{
@@ -1247,7 +1328,55 @@ label {
         display: flex;
         flex-direction: column;
         align-items: center;
-        align-items: center;
         justify-content: space-evenly;
     }
+
+    .chauffeur-video img{
+        width: 100%;
+    }
+
+    .event-paras{
+        padding: 4% 8%;
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .e-para1, .e-para2{
+        width: 100%;
+        text-align: left;
+        font-size: smaller;
+    }
+    /* Join team part */
+    .join-team-para h1{
+        font-size: 25px;
+    }
+
 }
+
+@media (max-width: 390px){
+    .cp-card img{
+        width: 320px;
+    }
+
+    .chauffeur-video img{
+        width: 100%;
+    }
+
+    .enquiry-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us-heading{
+        margin-top: 28%;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+}
+
