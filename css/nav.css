@@ -209,3 +209,11 @@ html,body{
     } */
   }
   
+  @media (max-width: 399px){
+    .mobile-menu-number{
+        font-size: 35px;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+    }
+  }

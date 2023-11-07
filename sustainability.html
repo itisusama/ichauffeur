@@ -137,7 +137,7 @@
         <!-- Hero -->
         <section class="chauffer-cars-section">
             <!-- Heading -->
-            <div class="chauffer-cars-heading">
+            <div class="sustainability-heading">
                 <h1>SUSTAINABILITY</h1>
                 <h3>LUXURY TRAVEL NEEDN'T COST THE EARTH</h3>
                 <br>
@@ -198,7 +198,7 @@
 <!-- Image Slider -->
 
  <!-- Carbon Offset Section -->
- <section class="chauffeur-info-section">
+ <section class="financial-roadshow">
     <div class="chauffeur-details">
         <h1>100% CARBON OFFSET JOURNEYS</h1>
         <h4>OUR VISION IS TO HAVE AN ALL ELECTRIC FLEET BY 2025</h4>
@@ -353,7 +353,7 @@
         <!-- copyright -->
         <div class="copyright">
             <div>
-                <p>&copy; 2023 Usama Hassan. All rights reserved.</p>
+                <p>&copy; 2023 Website Name. All rights reserved.</p>
             </div>
             <div>
                 <ul class="footer-bottom-list">
@@ -367,45 +367,7 @@
     <!-- Footer -->
 <!-- Script -->
 
-<script src="script/script.js"></script>
-
-<script>
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-
-    if (n > slides.length) {
-        slideIndex = 1;
-    }
-    if (n < 1) {
-        slideIndex = slides.length;
-    }
-
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-}
-
-</script>
+<script src="script/sustainability.js"></script>
 
 </body>
 </html>

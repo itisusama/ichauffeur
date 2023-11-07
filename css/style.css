@@ -196,6 +196,7 @@ html,body{
 }
 /* END: Travel Bar */
 
+
 /* START: Chauffeur */
 .chauffer-btn{   
     background-color: transparent;
@@ -1307,6 +1308,14 @@ label {
         color: white;
         text-align: center;
         font-size: 35px;
+    }
+
+    .sustainability-heading h1{
+        font-size: 35px;
+    }
+
+    .sustainability-heading h3{
+        font-size: 15px;
     }
 }
 
