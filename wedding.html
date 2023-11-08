@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/footer.css">
     <!-- CDNS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- START: Javascript Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- END: Javascript Scroll Animation -->
 </head>
 <body>
     <div class="image-container-tours">
@@ -173,7 +176,7 @@
             <br><br>
         </div>
             <!-- Article Cards -->
-            <div class="article-cards">
+            <div class="article-cards" data-aos="slide-up">
                 <!-- 1 -->
                 <div class="article-card">
                     <div><a href="#"><img src="https://www.ichauffeur.co.uk/wp-content/uploads/2023/10/chauffeur-driven-car-hire-1-768x480.jpg" alt="1"></a></div>
@@ -244,7 +247,7 @@
         </div>
             <!-- Article Cards -->
             <div class="travel-btn" style="display: flex; justify-content: center;">
-                <button type="button" class="chauffer-btn" style="color: black; border: 1px solid black;">London Weeding Cars</button>
+                <button type="button" class="chauffer-btn" style="color: black; border: 1px solid black;"><a href="weddingcars.html" style="color: black; text-decoration: none;">London Wedding Cars</a></button>
             </div>  
             <br><br>
     </section>
@@ -309,7 +312,7 @@
                 <span>__________</span>
             </div>
             <!-- vehicle cards -->
-            <div class="vehicle-cards">
+            <div class="vehicle-cards" data-aos="slide-up">
                 <!-- 1 -->
                 <div class="v-card">
                     <a href="#"><img src="assets/Mercedes-S-Class.webp" alt="car1" /></a>
@@ -567,7 +570,7 @@
         <p class="video-info-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum dolores vitae quam culpa nihil voluptatibus nobis mollitia ab alias placeat consequatur dicta est, ratione ducimus in ipsam recusandae cupiditate!</p>
         <br><br>
         <div class="travel-btn">
-            <button type="button" class="chauffer-btn" style="color: black; border: 1px solid black;">Wedding Car Hire London</button>
+            <button type="button" class="chauffer-btn" style="color: black; border: 1px solid black;"><a href="weddingcars.html" style="color: black; text-decoration: none;">Wedding Car Hire London</a></button>
         </div>
         <br><br>
 </section>
@@ -709,5 +712,14 @@
     </footer>
     <!-- Footer -->
     <script src="script/script.js"></script>
+    <!-- START: AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
+    <!-- END: AOS Script -->
 </body>
 </html>
