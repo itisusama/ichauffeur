@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/footer.css">
     <!-- CDNS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- START: Javascript Scroll Animation -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- END: Javascript Scroll Animation -->
 </head>
 <body>
     <div class="image-container-business">
@@ -197,7 +200,7 @@
             <br><br>
         </div>
         <!-- Article Cards -->
-        <div class="article-cards">
+        <div class="article-cards" data-aos="slide-up">
             <!-- 1 -->
             <div class="article-card">
                 <div><a href="#"><img src="https://www.ichauffeur.co.uk/wp-content/uploads/2023/10/chauffeur-driven-car-hire-1-768x480.jpg" alt="1"></a></div>
@@ -374,5 +377,15 @@
     </footer>
     <!-- Footer -->
     <script src="script/script.js"></script>
+
+       <!-- START: AOS Script -->
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+           AOS.init({
+               offset: 300,
+               duration: 1000,
+           });
+       </script>
+       <!-- END: AOS Script -->
 </body>
 </html>
