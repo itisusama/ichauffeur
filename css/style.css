@@ -48,7 +48,6 @@ html,body{
     object-fit: unset;
 }
 .image-container-selectcar{
-    /* background-color: #ebf1f5; */
     background-color: #222;
     margin-top: -20px;
     padding-top: 10px;
@@ -1440,7 +1439,8 @@ label {
 }
 
 /* START: Color Change blue */
-.travel-bar, .our-services-section, .journey-section, .enquiry-section{
+.travel-bar, .our-services-section, .journey-section, .enquiry-section, 
+.image-container-selectcar, .image-container-contact, .image-container-blog{
     background-color: #00308F !important;
 }
 
