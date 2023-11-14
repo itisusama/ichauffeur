@@ -8,16 +8,6 @@ html,body{
     overflow-x: hidden;
   }
 
-.image-container{
-    background-image: url('../assets/carbackground.jpg');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
-}
 .navbar{
     margin-top: 20px;
     background-color: transparent;

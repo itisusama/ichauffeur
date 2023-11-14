@@ -7,6 +7,16 @@ html,body{
   }
 
 /* START: Image Containers */
+.image-container{
+    background-image: url('../assets/carbackground.jpg');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
 .image-container-cars{
     background-image: url('../assets/chauffeur2.jpg');
     margin-top: -20px;
@@ -284,7 +294,7 @@ html,body{
 
 video {
     width: 100%;
-    height: auto;
+    height: 500px;
     display: block;
 }
 
@@ -345,6 +355,7 @@ video {
     margin-bottom: 8%;
 }
 .service-card{
+    margin-top: 10px;
     width: 350px;
     background-color: #222;
 }
@@ -474,7 +485,8 @@ video {
     margin-top: 10px;
     width: 100%;
     height: 700px;
-    background-image: linear-gradient(to top, rgba(2, 0, 36, 0.39) 33%, rgba(1,21,25,1) 90%), url('../assets/chauffeur.jpg');
+    /* background-image: linear-gradient(to top, rgba(2, 0, 36, 0.39) 33%, rgba(1,21,25,1) 90%), url('../assets/chauffeur.jpg'); */
+    background-image: url('../assets/chauffeur.jpg');
     background-size: cover;
     background-position: center;
     background-clip: border-box;
@@ -1083,7 +1095,11 @@ label {
 
 /* Tours */
 .get-price-btn{
-    width: 90%;
+    width: 75%;
+}
+.price-card-info .get-price-btn{
+    width: 75%;
+    font-size: 10.5px;
 }
 
 /* S Class */
@@ -1413,3 +1429,33 @@ label {
 #cprevButton:hover, #cnextButton:hover {
     background-color: #2222221a;
 }
+
+/* START: Color Change blue */
+.travel-bar, .our-services-section, .journey-section, .enquiry-section{
+    background-color: #00308F !important;
+}
+
+.service-card{
+    background-color: #00205b;
+}
+/* END: Color Change blue */
+
+/* START: Color Change green */
+/* .travel-bar, .our-services-section, .journey-section{
+    background-color: #008000;
+}
+.service-card{
+    background-color: #006400;
+}
+
+.booking-btn, .get-price-btn{
+    box-shadow: inset 0 0 0 2px #004b23;
+    background-color: #004b23;
+}
+
+.booking-btn:hover, .get-price-btn:hover{
+    color: white;
+    background-color: #013f1e;;
+    border: none;
+}    */
+/* END: Color Change green */

@@ -129,3 +129,23 @@ footer{
         width: 100%;
     }
 }
+
+/* START: Color Change blue */
+footer{
+    background-color: #00308F;
+}
+
+.footer-form{
+    background-color: #00205b;
+}
+/* END: Color Change blue */
+
+/* START: Color Change green */
+/* footer{
+    background-color: #008000;
+}
+
+.footer-form{
+    background-color: #006400;
+} */
+/* END: Color Change green */

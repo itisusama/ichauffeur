@@ -47,12 +47,8 @@ html,body{
     color: #0e5ae7;
 }
 
-.hero-input-container {
-    width: 200px; /* Adjust the width as needed */
-}
-
 .hero-input-box {
-    padding: 3% 5%;
+    padding: 3% 19%;
 }
 
 .one-way form, .by-the-hour form {
