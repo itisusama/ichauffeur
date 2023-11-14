@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="css/footer.css">
         <!-- CDNS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- START: Javascript Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- END: Javascript Scroll Animation -->
     </head>
 <body>
 
@@ -154,7 +157,7 @@
             <span>__________</span>
         </div>
         <!-- vehicle cards -->
-        <div class="vehicle-cards">
+        <div class="vehicle-cards" data-aos="slide-up">
             <!-- 1 -->
             <div class="v-card">
                 <a href="#"><img src="assets/Mercedes-S-Class.webp" alt="car1" /></a>
@@ -617,5 +620,16 @@
 </script>
 
     <script src="script/script.js"></script>
+
+    <!-- START: AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
+    <!-- END: AOS Script -->
+    
 </body>
 </html>

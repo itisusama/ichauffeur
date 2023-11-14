@@ -187,7 +187,16 @@ html,body{
     background-position: center;
     object-fit: unset;
 }
-
+.image-container-services{
+    background-image: url('../assets/services.jpeg');
+    margin-top: -20px;
+    height: 768px;
+    padding-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: unset;
+}
 /* END: Image Containers */
 
 /* START: Travel Bar */
