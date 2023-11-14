@@ -245,6 +245,16 @@ html,body{
     background-color: white;
     border: none;
 }
+
+.chauffer-btn a{
+    text-decoration: none; 
+    color: white;
+}
+
+.chauffer-btn a:hover{
+    text-decoration: none; 
+    color: black;
+}
 /* END: Chauffeur */
 
 /* START: Car Guide */
@@ -300,9 +310,14 @@ html,body{
     overflow: hidden;
 }
 
-video {
+.video-wrapper video {
     width: 100%;
     height: 500px;
+    display: block;
+}
+video {
+    width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -511,7 +526,6 @@ video {
 }
 
 /* Vehicle cards */
-
 .vehicle-cards{
     display: flex;
     flex-wrap: wrap;
@@ -549,7 +563,8 @@ video {
     margin-top: 10px;
     width: 100%;
     height: 700px;
-    background-image: linear-gradient(to bottom, #121fcf15 8%, #181515 90%), url('../assets/chauffeur.jpg');;
+    /* background-image: linear-gradient(to bottom, #121fcf15 8%, #181515 90%), url('../assets/chauffeur.jpg'); */
+    background-image: url('../assets/chauffeur.jpg');
     background-size: cover;
     background-position: center;
     background-clip: border-box;
@@ -629,6 +644,7 @@ video {
 .join-team-section{
     background-color: #181515;
     padding: 8px;
+    color: white;
 }
 
 .chauffeur-info-section{
@@ -639,6 +655,7 @@ video {
 .chauffeur-details, .chauffeur-video{
     width: 40%;
 }
+
 
 .c-test-cards{
     margin-top: 15px;
@@ -1440,7 +1457,8 @@ label {
 
 /* START: Color Change blue */
 .travel-bar, .our-services-section, .journey-section, .enquiry-section, 
-.image-container-selectcar, .image-container-contact, .image-container-blog{
+.image-container-selectcar, .image-container-contact, .image-container-blog,
+.join-team-section{
     background-color: #00308F !important;
 }
 
