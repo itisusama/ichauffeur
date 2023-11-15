@@ -28,6 +28,7 @@ html,body{overflow-x: hidden;}
 }
 .image-container-selectcar{
     background-color: #222;
+    height: 80px;
     margin-top: -20px;
     padding-top: 10px;
     background-size: cover;
