@@ -1,13 +1,13 @@
-body{
-    background-color: #f7f7f7;
-}
+body{background-color: #f7f7f7;}
 
-html,body{
-    overflow-x: hidden;
-  }
+html,body{overflow-x: hidden;}
 
 /* START: Image Containers */
-.image-container{
+.image-container,.image-container-cars,.image-container-chauffeur,.image-container-partner,
+.image-container-sustainability,.image-container-aboutus,.image-container-faq,
+.image-container-testimonial,.image-container-oneway,.image-container-airport,
+.image-container-tours,.image-container-business,.image-container-events,.image-container-sclass,
+.image-container-manchaster,.image-container-services{
     background-image: url('../assets/carbackground.jpg');
     margin-top: -20px;
     height: 768px;
@@ -19,33 +19,12 @@ html,body{
 }
 .image-container-cars{
     background-image: url('../assets/chauffeur2.jpg');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-chauffeur{
     background-image: url('../assets/Electric-Chauffeur.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-partner{
     background-image: url('../assets/partnerwithus.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-selectcar{
     background-color: #222;
@@ -68,23 +47,9 @@ html,body{
 }
 .image-container-sustainability{
     background-image: url('../assets/mountains.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-aboutus{
     background-image: url('../assets/rollsroyce.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-blog{
     background-color: #181717;
@@ -98,103 +63,33 @@ html,body{
 }
 .image-container-faq{
     background-image: url('../assets/faq.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-testimonial{
     background-image: url('../assets/testimonial.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-oneway{
     background-image: url('../assets/oneway.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-airport{
     background-image: url('../assets/airport.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-business{
     background-image: url('../assets/business.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-events{
     background-image: url('../assets/events.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-tours{
     background-image: url('../assets/tours.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-sclass{
     background-image: url('../assets/sclass.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-manchaster{
     background-image: url('../assets/manchester-bridge.webp');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 .image-container-services{
     background-image: url('../assets/services.jpeg');
-    margin-top: -20px;
-    height: 768px;
-    padding-top: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: unset;
 }
 /* END: Image Containers */
 
@@ -205,7 +100,6 @@ html,body{
     padding: 2% 5%;
     display: flex;
     justify-content: space-between;
-    position: relative;
     z-index: -99;
 }
 
@@ -1486,3 +1380,26 @@ label {
     border: none;
 }    */
 /* END: Color Change green */
+
+.sliding-text-box{
+    background-color: #00308F;
+    color: white;
+    margin: 0.8rem 0;
+    padding: 0.3rem 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .sliding-text {
+    width: 100%;
+    white-space: nowrap;
+    animation: slideRight 20s linear infinite;
+  }
+  
+  @keyframes slideRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
