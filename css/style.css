@@ -257,6 +257,15 @@ video {
     border: none;
 }
 
+.our-company-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.our-company-btn a:hover{
+    color: white;
+}
+
 /* Our Services */
 .our-services-section{
     margin-top: 8%;
@@ -1403,3 +1412,18 @@ label {
         transform: translateX(-100%);
     }
   }
+
+  /* START: Car Blocks */
+  .car-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .car-blocks img{
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.5);
+  }
+  /* END: Car Blocks */
