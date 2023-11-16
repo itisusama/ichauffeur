@@ -998,6 +998,13 @@ label {
     border-radius: 5px;
 }
 
+.details-form select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 .checkbox-group {
     display: flex;
     align-items: center;
@@ -1428,3 +1435,4 @@ label {
     box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.5);
   }
   /* END: Car Blocks */
+  
