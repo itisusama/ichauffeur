@@ -8,7 +8,7 @@ html,body{overflow-x: hidden;}
 .image-container-testimonial,.image-container-oneway,.image-container-airport,
 .image-container-tours,.image-container-business,.image-container-events,.image-container-sclass,
 .image-container-manchaster,.image-container-services{
-    background-image: url('../assets/carbackground.jpg');
+    background-image: url('../assets/banners/carbackground.jpg');
     margin-top: -20px;
     height: 768px;
     padding-top: 10px;
@@ -18,13 +18,13 @@ html,body{overflow-x: hidden;}
     object-fit: unset;
 }
 .image-container-cars{
-    background-image: url('../assets/chauffeur2.jpg');
+    background-image: url('../assets/banners/chauffeur2.jpg');
 }
 .image-container-chauffeur{
-    background-image: url('../assets/Electric-Chauffeur.webp');
+    background-image: url('../assets/banners/Electric-Chauffeur.webp');
 }
 .image-container-partner{
-    background-image: url('../assets/partnerwithus.webp');
+    background-image: url('../assets/banners/partnerwithus.webp');
 }
 .image-container-selectcar{
     background-color: #222;
@@ -47,10 +47,10 @@ html,body{overflow-x: hidden;}
     object-fit: unset;
 }
 .image-container-sustainability{
-    background-image: url('../assets/mountains.webp');
+    background-image: url('../assets/banners/mountains.webp');
 }
 .image-container-aboutus{
-    background-image: url('../assets/rollsroyce.webp');
+    background-image: url('../assets/banners/rollsroyce.webp');
 }
 .image-container-blog{
     background-color: #181717;
@@ -63,34 +63,34 @@ html,body{overflow-x: hidden;}
     object-fit: unset;
 }
 .image-container-faq{
-    background-image: url('../assets/faq.webp');
+    background-image: url('../assets/banners/faq.webp');
 }
 .image-container-testimonial{
-    background-image: url('../assets/testimonial.webp');
+    background-image: url('../assets/banners/testimonial.webp');
 }
 .image-container-oneway{
-    background-image: url('../assets/oneway.webp');
+    background-image: url('../assets/banners/oneway.webp');
 }
 .image-container-airport{
-    background-image: url('../assets/airport.webp');
+    background-image: url('../assets/banners/airport.webp');
 }
 .image-container-business{
-    background-image: url('../assets/business.webp');
+    background-image: url('../assets/banners/business.webp');
 }
 .image-container-events{
-    background-image: url('../assets/events.webp');
+    background-image: url('../assets/banners/events.webp');
 }
 .image-container-tours{
-    background-image: url('../assets/tours.webp');
+    background-image: url('../assets/banners/tours.webp');
 }
 .image-container-sclass{
-    background-image: url('../assets/sclass.webp');
+    background-image: url('../assets/banners/sclass.webp');
 }
 .image-container-manchaster{
-    background-image: url('../assets/manchester-bridge.webp');
+    background-image: url('../assets/banners/manchester-bridge.webp');
 }
 .image-container-services{
-    background-image: url('../assets/services.jpeg');
+    background-image: url('../assets/banners/services.jpeg');
 }
 /* END: Image Containers */
 
@@ -304,7 +304,7 @@ video {
 /* Slider Section */
 
 .slider-section{
-    margin-top: 8%;
+    margin: 5% 0;
 }
 .slider-container {
     position: relative;
@@ -411,12 +411,16 @@ video {
 .chauffeur-image{
     margin-top: 10px;
     width: 100%;
-    height: 700px;
+    height: 580px;
     /* background-image: linear-gradient(to top, rgba(2, 0, 36, 0.39) 33%, rgba(1,21,25,1) 90%), url('../assets/chauffeur.jpg'); */
-    background-image: url('../assets/chauffeur.jpg');
+    background-image: url('../assets/chauffeur2.jpg');
     background-size: cover;
     background-position: center;
     background-clip: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* CSS Styling for Page 2 */
 .chauffer-cars-section{
@@ -999,7 +1003,7 @@ label {
 }
 
 .details-form select {
-    width: 90%;
+    width: 94%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -1436,3 +1440,160 @@ label {
   }
   /* END: Car Blocks */
   
+  /* START: Swiper js car cards */
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    column-gap: 40px;
+    padding: 5%;
+    background-color: #e8e8e8;
+  }
+  .container .side-info {
+    margin: 15px 0;
+  }
+  
+  .container .side-info span {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    color: #717171;
+  }
+  
+  .container .side-info h1 {
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    background-color: #005baa;
+    background-image: linear-gradient(45deg, #005baa, #000000);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .container .side-info hr {
+    display: block;
+    background: #005baa;
+    height: 4px;
+    width: 20%;
+    margin: 18px 0;
+  }
+  
+  .container a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #717171;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #c2c2c2;
+    padding: 8px 16px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .container a:hover {
+    border: 2px solid #005baa;
+    color: #005baa;
+  }
+  
+  .container .swiper {
+    width: 100%;
+  }
+  
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    background: #fff;
+  }
+  
+  .swiper-pagination {
+    bottom: 20px !important;
+  }
+  
+  .swiper-slide {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+    box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .swiper-slide h2 {
+    text-shadow: 2px 2px black;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    padding: 0 0 0 24px;
+    text-transform: uppercase;
+  }
+  
+  .swiper-slide a {
+    margin: 20px 25px 50px !important;
+    padding: 8px 16px !important;
+    font-size: 14px;
+    border: none;
+  }
+  
+  .swiper-slide a:hover {
+    border: none;
+  }
+  
+  .swiper-slide div {
+    display: none;
+    opacity: 0;
+    padding-bottom: 10px;
+  }
+  
+  .swiper-slide-active div {
+    display: block;
+    opacity: 1;
+  }
+  
+  .slide-one {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+      url("../assets/Mercedes-S-Class.webp") no-repeat 50% 50% / cover;
+  }
+  
+  .slide-two {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+      url("../assets/Mercedes-V-Class.webp") no-repeat 50% 50% / cover;
+  }
+  
+  .slide-three {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+      url("../assets/Mercedes-E-Class.webp") no-repeat 50% 50% / cover;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 800px) {
+    .container {
+      display: flex;
+      align-items: center;
+    }
+  
+    .container .side-info {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .container .side-info h1 {
+      font-size: 46px;
+    }
+  
+    .container .side-info p {
+      font-size: 14px;
+    }
+  }
+  /* END: Swiper js car cards */

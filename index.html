@@ -14,6 +14,8 @@
     <!-- START: Javascript Scroll Animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- END: Javascript Scroll Animation -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="image-container">
@@ -451,51 +453,73 @@
     </section>
     <!-- Our Services Section -->
 
-    <!-- Slider -->
-    <section class="slider-section">
-        <div class="slider-container">
-                <div class="slider">
-                    <div class="slide"><img src="assets/slide1.PNG" alt="Slide 1"></div>
-                    <div class="slide"><img src="assets/slide2.PNG" alt="Slide 2"></div>
-                    <div class="slide"><img src="assets/slide3.PNG" alt="Slide 3"></div>
-                    <div class="slide"><img src="assets/slide4.PNG" alt="Slide 4"></div>
-                </div>
-            </div>
-        
-            <div class="slider-nav">
-                <button class="prev" onclick="moveSlider(-1)">&#10094;</button>
-                <div class="indicators">
-                    <span class="indicator" onclick="showSlide(0)"></span>
-                    <span class="indicator" onclick="showSlide(1)"></span>
-                    <span class="indicator" onclick="showSlide(2)"></span>
-                    <span class="indicator" onclick="showSlide(3)"></span>
-                </div>
-                <button class="next" onclick="moveSlider(1)">&#10095;</button>
-            </div>
-    </section>
-    <!-- Slider -->
-
     <!-- Our Journey Section -->
-    <section class="journey-section">
+    <section class="journey-section" style="margin-top: 0; margin-bottom: 0;">
         <div class="journey-content">
-            <div class="cars-guide-title" style="color: white;">
-                <h1>START YOUR JOURNEY</h1>
-                <h4>BOOK ONLINE OR CALL TODAY</h4>
-                <span>__________</span>
-
-                <div class="travel-btn">
-                    <button type="button" class="booking-btn">Book</button>
-                </div>
-
-            </div>
+            
             <!-- Chauffer Image -->
             <div class="chauffeur-image">
+                
+                <div class="cars-guide-title" style="color: white; text-shadow: 2px 2px black;">
+                    <h1>START YOUR JOURNEY</h1>
+                    <h4>BOOK ONLINE OR CALL TODAY</h4>
+                    <span>__________</span>
+    
+                    <div class="travel-btn">
+                        <button type="button" class="booking-btn">Book</button>
+                    </div>
+                </div>
 
             </div>
             <!-- Chauffer Image -->
         </div>
     </section>
     <!-- Our Journey Section -->
+
+        <!-- START: Cars Card Swiper js -->
+        <div class="container">
+            <!-- Side infos -->
+            <div class="side-info">
+              <span>Our</span>
+              <h1>Chauffeur Cars</h1>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                omnis quis nesciunt.
+              </p>
+              <a href="ourcars.html">Our Cars</a>
+            </div>
+            <!-- Swiper slider -->
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <!-- Content 1 -->
+                <div class="swiper-slide slide-one">
+                  <div>
+                    <h2>Mercedes S Class</h2>
+                    <a href="mercedessclass.html">View Detail</a>
+                  </div>
+                </div>
+                <!-- Content 2 -->
+                <div class="swiper-slide slide-two">
+                  <div>
+                    <h2>Mercedes V Class</h2>
+                    <a href="mercedesvclass.html">View Detail</a>
+                  </div>
+                </div>
+                <!-- Content 3 -->
+                <div class="swiper-slide slide-three">
+                  <div>
+                    <h2>Mercedes E Class</h2>
+                    <a href="mercedeseclass.html">View Detail</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+      </div>
+        <!-- END: Cars Card Swiper js -->
 
     <!-- Footer -->
     <footer>
@@ -608,11 +632,55 @@
 
     <!-- START: AOS Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         AOS.init({
             offset: 300,
             duration: 1000,
         });
+
+        var swiper = new Swiper(".swiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 3,
+                slideShadows: true,
+            },
+            keyboard: {
+                enabled: true,
+            },
+            mousewheel: {
+                thresholdDelta: 70,
+            },
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                slidesPerView: 2,
+                },
+                768: {
+                slidesPerView: 1,
+                },
+                1024: {
+                slidesPerView: 2,
+                },
+                1560: {
+                slidesPerView: 3,
+                },
+            },
+            });
     </script>
     <!-- END: AOS Script -->
 
