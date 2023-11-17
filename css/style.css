@@ -18,7 +18,7 @@ html,body{overflow-x: hidden;}
     object-fit: unset;
 }
 .image-container-cars{
-    background-image: url('../assets/banners/chauffeur2.jpg');
+    background-image: url('../assets/banners/chauffeur2.jpeg');
 }
 .image-container-chauffeur{
     background-image: url('../assets/banners/Electric-Chauffeur.webp');
@@ -476,6 +476,11 @@ video {
     background-size: cover;
     background-position: center;
     background-clip: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px black;
 }
 
 /* Slider Section */
