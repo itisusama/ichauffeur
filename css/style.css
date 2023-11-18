@@ -8,9 +8,10 @@ html,body{overflow-x: hidden;}
 .image-container-sustainability,.image-container-aboutus,.image-container-faq,
 .image-container-testimonial,.image-container-oneway,.image-container-airport,
 .image-container-tours,.image-container-business,.image-container-events,.image-container-sclass,
-.image-container-manchaster,.image-container-services{
+.image-container-manchaster,.image-container-services, .image-container-wedding{
     background-image: url('../assets/banners/carbackground.jpg');
     margin-top: -20px;
+    width: 100vw;
     height: 768px;
     padding-top: 10px;
     background-size: cover;
@@ -22,10 +23,10 @@ html,body{overflow-x: hidden;}
     background-image: url('../assets/banners/chauffeur2.jpeg');
 }
 .image-container-chauffeur{
-    background-image: url('../assets/banners/Electric-Chauffeur.webp');
+    background-image: url('../assets/banners/chauffeur.jpg');
 }
 .image-container-partner{
-    background-image: url('../assets/banners/partnerwithus.webp');
+    background-image: url('../assets/banners/partnerwithus.jpg');
 }
 .image-container-selectcar{
     background-color: #222;
@@ -51,7 +52,7 @@ html,body{overflow-x: hidden;}
     background-image: url('../assets/banners/mountains.webp');
 }
 .image-container-aboutus{
-    background-image: url('../assets/banners/rollsroyce.webp');
+    background-image: url('../assets/banners/aboutus.jpg');
 }
 .image-container-blog{
     background-color: #181717;
@@ -64,34 +65,37 @@ html,body{overflow-x: hidden;}
     object-fit: unset;
 }
 .image-container-faq{
-    background-image: url('../assets/banners/faq.webp');
+    background-image: url('../assets/banners/faq.jpg');
 }
 .image-container-testimonial{
-    background-image: url('../assets/banners/testimonial.webp');
+    background-image: url('../assets/banners/testimonial.jpeg');
 }
 .image-container-oneway{
     background-image: url('../assets/banners/oneway.webp');
 }
 .image-container-airport{
-    background-image: url('../assets/banners/airport.webp');
+    background-image: url('../assets/banners/airport.jpeg');
 }
 .image-container-business{
-    background-image: url('../assets/banners/business.webp');
+    background-image: url('../assets/banners/business.jpg');
 }
 .image-container-events{
-    background-image: url('../assets/banners/events.webp');
+    background-image: url('../assets/banners/events.jpg');
 }
 .image-container-tours{
-    background-image: url('../assets/banners/tours.webp');
+    background-image: url('../assets/banners/tours.jpg');
 }
 .image-container-sclass{
-    background-image: url('../assets/banners/sclass.webp');
+    background-image: url('../assets/banners/s_class.jpg');
 }
 .image-container-manchaster{
     background-image: url('../assets/banners/manchester-bridge.webp');
 }
 .image-container-services{
-    background-image: url('../assets/banners/services.jpeg');
+    background-image: url('../assets/banners/services.jpg');
+}
+.image-container-wedding{
+    background-image: url('../assets/banners/wedding.jpg');
 }
 /* END: Image Containers */
 
@@ -1449,7 +1453,6 @@ label {
     margin-top: 20px;
     width: 350px;
     height: 350px;
-    box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.5);
   }
   /* END: Car Blocks */
   

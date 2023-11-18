@@ -49,6 +49,7 @@ html,body{
 
 .hero-input-box {
     padding: 3% 19%;
+    /* width: 65%; */
 }
 
 .one-way form, .by-the-hour form {
