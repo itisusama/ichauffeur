@@ -645,6 +645,9 @@ video {
     margin: 0 auto;
 }
 
+.j-info-para a{
+    color: black;
+}
 
 .article-cards{
     display: flex;
@@ -666,6 +669,15 @@ video {
 .article-card-info{
     padding: 5px 10px;
     color: black;
+}
+
+.article-card-info h1{
+    font-size: medium;
+}
+
+.article-card-info p{
+    font-size: small;
+    font-weight: 300;
 }
 
 /* Select Car Page*/
@@ -788,8 +800,12 @@ video {
     border-bottom-left-radius: 30px;
 }
 
+.enquiry-form .enquiry-btn{
+    width: 85%;
+}
+
 #enquire{
-    width: 84%;
+    width: 83%;
 }
 
 /* Safety Page */

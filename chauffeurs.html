@@ -14,6 +14,8 @@
         <!-- START: Javascript Scroll Animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- END: Javascript Scroll Animation -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     </head>
 <body>
 
@@ -140,18 +142,12 @@
 
     <!-- Interested in Joining Team -->
         <section class="join-team-section">
-            <div class="cars-guide-title join-team-para" style="color: white;">
+            <div class="cars-guide-title join-team-para" style="color: white; margin-top: 10px;">
                 <h1>INTERESTED IN JOINING OUR <br> TEAM?</h1>
                 <h4>WORK WITH US</h4>
                 <span>__________</span>
                 <br><br>
                 <p class="video-info-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem tempore beatae aperiam provident hic, nam in aut deserunt error quasi dolorum totam quis ullam obcaecati aspernatur accusantium? Aperiam, amet animi.</p>
-
-                <div class="travel-btn">
-                    <button type="button" class="booking-btn">Partner With Us</button>
-                </div>
-
-                <br><br>
         </section>
     <!-- Interested in Joining Team -->
 
@@ -284,32 +280,52 @@
     </section>
     <!-- Testimonial Cards -->
 
-    <!-- Slider -->
-    <section class="ourcars-slider-section">
-        <div class="ourcars-slider-container">
-                <div class="ourcars-slider">
-                    <div class="ourcars-slide"><img src="assets/slide1.PNG" alt="Slide 1"></div>
-                    <div class="ourcars-slide"><img src="assets/slide2.PNG" alt="Slide 2"></div>
-                    <div class="ourcars-slide"><img src="assets/slide3.PNG" alt="Slide 3"></div>
-                    <div class="ourcars-slide"><img src="assets/slide4.PNG" alt="Slide 4"></div>
-                </div>
-            </div>
-        
-            <div class="ourcars-slider-nav">
-                <button class="ourcars-prev" onclick="ourcarsmoveSlider(-1)">&#10094;</button>
-                <div class="ourcars-indicators">
-                    <span class="ourcars-indicator" onclick="ourcarsshowSlide(0)"></span>
-                    <span class="ourcars-indicator" onclick="ourcarsshowSlide(1)"></span>
-                    <span class="ourcars-indicator" onclick="ourcarsshowSlide(2)"></span>
-                    <span class="ourcars-indicator" onclick="ourcarsshowSlide(3)"></span>
-                </div>
-                <button class="ourcars-next" onclick="ourcarsmoveSlider(1)">&#10095;</button>
-            </div>
-    </section>
-    <!-- Slider -->
+    <!-- START: Cars Card Swiper js -->
+  <div class="container">
+    <!-- Side infos -->
+    <div class="side-info">
+      <span>Our</span>
+      <h1>Chauffeur Cars</h1>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        omnis quis nesciunt.
+      </p>
+      <a href="ourcars.html">Our Cars</a>
+    </div>
+    <!-- Swiper slider -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Content 1 -->
+        <div class="swiper-slide slide-one">
+          <div>
+            <h2>Mercedes S Class</h2>
+            <a href="mercedessclass.html">View Detail</a>
+          </div>
+        </div>
+        <!-- Content 2 -->
+        <div class="swiper-slide slide-two">
+          <div>
+            <h2>Mercedes V Class</h2>
+            <a href="mercedesvclass.html">View Detail</a>
+          </div>
+        </div>
+        <!-- Content 3 -->
+        <div class="swiper-slide slide-three">
+          <div>
+            <h2>Mercedes E Class</h2>
+            <a href="mercedeseclass.html">View Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+<!-- END: Cars Card Swiper js -->
     
 <!-- Footer -->
-<footer style="margin-top: 8%;">
+<footer>
     <!-- logo and number -->
     <div class="logo-and-number">
         <div class="footer-logo">
@@ -415,68 +431,10 @@
 </footer>
 <!-- Footer -->
 <!-- Script -->
-<script>
-    let ourcarsSlideIndex = 0;
-
-    function ourcarsmoveSlider(n) {
-        ourcarsshowSlide(ourcarsSlideIndex += n);
-    }
-
-    function ourcarsshowSlide(n) {
-        const slides = document.querySelectorAll(".ourcars-slide");
-        const indicators = document.querySelectorAll(".ourcars-indicator");
-
-        if (n >= slides.length) {
-            ourcarsSlideIndex = 0;
-        }
-        if (n < 0) {
-            ourcarsSlideIndex = slides.length - 1;
-        }
-
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-            indicators[i].classList.remove("ourcars-slide-active");
-        }
-
-        slides[ourcarsSlideIndex].style.display = "block";
-        indicators[ourcarsSlideIndex].classList.add("ourcars-slide-active");
-    }
-
-    ourcarsshowSlide(ourcarsSlideIndex);
-
-    // Cards
-
-    document.addEventListener("DOMContentLoaded", function () {
-    let currentSlide = 1;
-    showSlide(currentSlide);
-
-    document.getElementById("cprevButton").addEventListener("click", function () {
-        showSlide(currentSlide -= 1);
-    });
-
-    document.getElementById("cnextButton").addEventListener("click", function () {
-        showSlide(currentSlide += 1);
-    });
-
-    function showSlide(n) {
-        const slides = document.getElementsByClassName("c-slide");
-        if (n > slides.length) {
-            currentSlide = 1;
-        }
-        if (n < 1) {
-            currentSlide = slides.length;
-        }
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slides[currentSlide - 1].style.display = "block";
-    }
-});
-
-    
-</script>
-
+    <script src="script/chauffeur.js"></script>
     <script src="script/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- START: AOS Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -485,6 +443,76 @@
             offset: 300,
             duration: 1000,
         });
+        // Cards
+            document.addEventListener("DOMContentLoaded", function () {
+            let currentSlide = 1;
+            showSlide(currentSlide);
+
+            document.getElementById("cprevButton").addEventListener("click", function () {
+                showSlide(currentSlide -= 1);
+            });
+
+            document.getElementById("cnextButton").addEventListener("click", function () {
+                showSlide(currentSlide += 1);
+            });
+
+            function showSlide(n) {
+                const slides = document.getElementsByClassName("c-slide");
+                if (n > slides.length) {
+                    currentSlide = 1;
+                }
+                if (n < 1) {
+                    currentSlide = slides.length;
+                }
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[currentSlide - 1].style.display = "block";
+            }
+        });
+
+        var swiper = new Swiper(".swiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 3,
+                slideShadows: true,
+            },
+            keyboard: {
+                enabled: true,
+            },
+            mousewheel: {
+                thresholdDelta: 70,
+            },
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                slidesPerView: 2,
+                },
+                768: {
+                slidesPerView: 1,
+                },
+                1024: {
+                slidesPerView: 2,
+                },
+                1560: {
+                slidesPerView: 3,
+                },
+            },
+            });
+
     </script>
     <!-- END: AOS Script -->
 </body>
