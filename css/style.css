@@ -663,6 +663,7 @@ video {
 .article-card{
     width: 350px;
     background-color: white;
+    box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .article-card a img{
