@@ -14,8 +14,6 @@
         <!-- START: Javascript Scroll Animation -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- END: Javascript Scroll Animation -->
-        <!-- Link Swiper's CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     </head>
 <body>
 
@@ -152,7 +150,7 @@
             <!-- 1 -->
             <div class="v-card">
                 <a href="#"><img src="assets/Mercedes-S-Class.webp" alt="car1" /></a>
-                <a href="#"><h1>Mercedes S Class</h1></a>
+                <a href="mercedessclass.html"><h1>Mercedes S Class</h1></a>
                 
                 <div class="v-card-info">
                     <div class="v-card-specs">
@@ -181,16 +179,16 @@
                             <small>Prices subject to VAT</small>
                         </p>
     
-                        <button type="button" class="get-price-btn"> Get Price and Book</button>
+                        <a href="book.html"><button style="width: 100%;" type="button" class="get-price-btn"> Book This Car</button></a>
                         <br>
-                        <p style="text-align: center;"><a href="#" style="color: black;"> Find out more</a></p>
+                        <p style="text-align: center;"><a href="mercedessclass.html" style="color: black;"> Find out more → </a></p>
                     </div>  
                 </div>
             </div>
             <!-- 2 -->
             <div class="v-card">
                 <a href="#"><img src="assets/Mercedes-V-Class.webp" alt="car2" /></a>
-                <a href="#"><h1>MERCEDES V-CLASS & EQV</h1></a>
+                <a href="mercedesvclass.html"><h1>MERCEDES V-CLASS & EQV</h1></a>
                 
                 <div class="v-card-info">
                     <div class="v-card-specs">
@@ -219,16 +217,16 @@
                             <small>Prices subject to VAT</small>
                         </p>
     
-                        <button type="button" class="get-price-btn"> Get Price and Book</button>
+                        <a href="book.html"><button style="width: 100%;" type="button" class="get-price-btn"> Book This Car</button></a>
                         <br>
-                        <p style="text-align: center;"><a href="#" style="color: black;"> Find out more</a></p>
+                        <p style="text-align: center;"><a href="mercedesvclass.html" style="color: black;"> Find out more → </a></p>
                     </div>  
                 </div>
             </div>
             <!-- 3 -->
             <div class="v-card">
                 <a href="#"><img src="assets/Mercedes-S-Class.webp" alt="car3" /></a>
-                <a href="#"><h1>MERCEDES E CLASS</h1></a>
+                <a href="mercedeseclass.html"><h1>MERCEDES E CLASS</h1></a>
                 
                 <div class="v-card-info">
                     <div class="v-card-specs">
@@ -257,9 +255,9 @@
                             <small>Prices subject to VAT</small>
                         </p>
     
-                        <button type="button" class="get-price-btn"> Get Price and Book</button>
+                        <a href="book.html"><button style="width: 100%;" type="button" class="get-price-btn"> Book This Car</button></a>
                         <br>
-                        <p style="text-align: center;"><a href="#" style="color: black;"> Find out more</a></p>
+                        <p style="text-align: center;"><a href="mercedeseclass.html" style="color: black;"> Find out more → </a></p>
                     </div>  
                 </div>
             </div>
@@ -283,7 +281,7 @@
                     <p class="video-info-para">The very finest chauffeurs, all hand selected to meet our very exacting standards. Each one is so much more than just a driver.</p>
     
                     <div class="travel-btn">
-                        <button type="button" class="booking-btn">Meet Our Chauffeurs</button>
+                        <a type="button" href="chauffeurs.html" class="booking-btn">Meet Our Chauffeurs</a>
                     </div>
             </div>
             <!-- Chauffer Image -->
@@ -292,49 +290,6 @@
     </section>
     <!-- Our Journey Section -->
 
-  <!-- START: Cars Card Swiper js -->
-  <div class="container">
-    <!-- Side infos -->
-    <div class="side-info">
-      <span>Our</span>
-      <h1>Chauffeur Cars</h1>
-      <hr />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-        omnis quis nesciunt.
-      </p>
-    </div>
-    <!-- Swiper slider -->
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <!-- Content 1 -->
-        <div class="swiper-slide slide-one">
-          <div>
-            <h2>Mercedes S Class</h2>
-            <a href="mercedessclass.html">View Detail</a>
-          </div>
-        </div>
-        <!-- Content 2 -->
-        <div class="swiper-slide slide-two">
-          <div>
-            <h2>Mercedes V Class</h2>
-            <a href="mercedesvclass.html">View Detail</a>
-          </div>
-        </div>
-        <!-- Content 3 -->
-        <div class="swiper-slide slide-three">
-          <div>
-            <h2>Mercedes E Class</h2>
-            <a href="mercedeseclass.html">View Detail</a>
-          </div>
-        </div>
-      </div>
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-<!-- END: Cars Card Swiper js -->
-    
     <!-- Footer -->
     <footer>
         <!-- logo and number -->
@@ -468,58 +423,11 @@
 </script>
 
     <script src="script/script.js"></script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- START: AOS Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({
-            offset: 300,
-            duration: 1000,
-        });
-
-        var swiper = new Swiper(".swiper", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 0,
-                depth: 100,
-                modifier: 3,
-                slideShadows: true,
-            },
-            keyboard: {
-                enabled: true,
-            },
-            mousewheel: {
-                thresholdDelta: 70,
-            },
-            loop: true,
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: true,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                640: {
-                slidesPerView: 2,
-                },
-                768: {
-                slidesPerView: 1,
-                },
-                1024: {
-                slidesPerView: 2,
-                },
-                1560: {
-                slidesPerView: 3,
-                },
-            },
-            });
+        AOS.init();
 
     </script>
     <!-- END: AOS Script -->

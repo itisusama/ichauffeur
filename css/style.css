@@ -1,6 +1,9 @@
 body{background-color: #f7f7f7;}
 
 a{text-decoration: none;}
+button, a, input[type=submit]{
+    cursor: pointer;
+}
 html,body{overflow-x: hidden;}
 
 /* START: Image Containers */
@@ -175,14 +178,12 @@ html,body{overflow-x: hidden;}
     height: 250px;
 }
 
-.price-card-image a img:hover{
-    opacity: 75%;
-    width: 280px;
-}
-
 .price-card-info p span{
     font-size: 13px;
     line-height: 30px;
+}
+.price-card-info small{
+    margin-bottom: 10px;
 }
 /* END: price cards */
 /* END: Car Guide */
@@ -378,7 +379,10 @@ video {
     cursor: pointer;
     font-size: 14px;
     line-height: 1;
-    border-radius: 500px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition-property: background-color,border-color,color,box-shadow,filter;
     transition-duration: .3s;
     border: 1px solid transparent;
@@ -432,7 +436,12 @@ video {
     justify-content: space-evenly;
 }
 .v-card{
-    width: 520px;
+    width: 400px;
+    height: auto;
+}
+
+.v-card img{
+    width: 400px;
     height: auto;
 }
 
@@ -448,7 +457,7 @@ video {
 }
 
 .v-card-specs{
-    width: 200px;
+    width: 150px;
 }
 .v-card-specs img{
     width: 20px;
@@ -456,7 +465,7 @@ video {
 }
 
 .price-card-info{
-    width: 280px;
+    width: 240px;
 }
 
 .ourcars-chauffeur-image{
@@ -738,10 +747,10 @@ video {
     background-color: #0e5ae7;
     color: white;
     padding: 10px 25px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .cp-card{
@@ -781,37 +790,41 @@ video {
 
 .enquiry-form{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .enquiry-form input[type=text]{
     border: 1px solid #555;
-    width: 80%;
+    width: 97%;
     padding: 10px 8px;
   }
 
 .enquiry-form input[type=email]{
     border: 1px solid #555;
-    width: 80%;
+    width: 97%;
     padding: 10px 8px;
   }
 
 .enquiry-btn{
-    width: 80%;
+    width: 100%;
     border: none;
     background-color: #0e5ae7;
     color: white;
     padding: 10px 25px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .enquiry-form .enquiry-btn{
-    width: 85%;
+    width: 100%;
 }
 
 #enquire{
-    width: 83%;
+    width: 100%;
 }
 
 /* Safety Page */
@@ -930,7 +943,7 @@ video {
 
 /* By the hour page */
 .price-card-info-new{
-    width: 100%;
+    width: 92%;
 }
 
 
@@ -1051,7 +1064,13 @@ label {
 /* Tours */
 .get-price-btn{
     width: 75%;
+    height: 33px;
 }
+
+.get-price-btn a{
+    color: white;
+}
+
 .price-card-info .get-price-btn{
     width: 100%;
     font-size: 10.5px;
@@ -1061,7 +1080,7 @@ label {
 
 /* Book Form */
 .book-form-section{
-    padding: 8%;
+    padding: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -1362,6 +1381,24 @@ label {
         font-size: 28px;
     }
     
+    .box-big-image img{
+        width: 330px;
+        height: 200px;
+    }
+    
+    .box-small-images img{
+        width: 330px;
+        height: 200px;
+    }
+
+    .service-card{
+        width: 330px;
+     }
+    
+    .service-card a img{
+        width: 330px;
+        height: 200px;
+    }
 }
 
 /* Blog Buttons */
@@ -1423,7 +1460,6 @@ label {
 .sliding-text-box{
     background-color: #00308F;
     color: white;
-    margin: 0.8rem 0;
     padding: 0.3rem 0;
     width: 100%;
     overflow: hidden;
@@ -1507,7 +1543,7 @@ label {
     color: #717171;
     font-weight: 500;
     background: #fff;
-    border-radius: 50px;
+    border-radius: 5px;
     border: 2px solid #c2c2c2;
     padding: 8px 16px;
     margin-top: 20px;
@@ -1611,5 +1647,9 @@ label {
     .container .side-info p {
       font-size: 14px;
     }
+
+    .container {
+        width: 90%;
+      }
   }
   /* END: Swiper js car cards */
