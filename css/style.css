@@ -774,7 +774,7 @@ video {
 }
 
 .enquiry-section{
-    background-color: #e6e7ec;
+    background-color: #e6e7ec !important;
     padding: 6%;
     display: flex;
     flex-direction: column;
@@ -794,6 +794,7 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black !important;
 }
 .enquiry-form input[type=text]{
     border: 1px solid #555;
@@ -1426,7 +1427,7 @@ label {
 }
 
 /* START: Color Change blue */
-.travel-bar, .our-services-section, .journey-section, .enquiry-section, 
+.travel-bar, .our-services-section, .journey-section, 
 .image-container-selectcar, .image-container-contact, .image-container-blog,
 .join-team-section{
     background-color: #00308F !important;
