@@ -2,9 +2,12 @@
     // mobile menu
     const navToggle = document.getElementById('nav-toggle');
     const mobileMenu = document.querySelector('.mobile-menu');
+    const hero = document.querySelector('.hero-section');
 
     mobileMenu.style.display = 'none'
     navToggle.addEventListener('click', function() {
+
+        hero.classList.toggle('hero-active');
         
         document.getElementById('navbar').classList.toggle('nav-toggle-color');
         if (mobileMenu.style.display === 'block') {
