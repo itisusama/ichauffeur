@@ -19,9 +19,7 @@ html,body{
 }
 .nav-number{
     margin-top: 10px;
-}
-.nav-number:hover{
-    color: #e2d7d7;
+    font-size: 17px;
 }
 
 .nav-logo{
@@ -116,6 +114,7 @@ html,body{
     position: absolute; 
     right: 50px;
     top: 20px;
+    text-shadow: 2px 2px black;
 }
 .mobile-menu{
     display: none;
@@ -142,6 +141,14 @@ html,body{
     /* Nav Menu */
     #nav-toggle{
         display: block;
+    }
+
+    @media (max-width: 487px){
+        #nav-toggle{
+            position: absolute; 
+            right: 50px;
+            top: 45px;
+        }  
     }
 
     .nav-menu{
@@ -173,41 +180,6 @@ html,body{
         width: 100%;
         margin-bottom: 11px;
     }
-
-    /* .nav-menu {
-        flex-direction: column;
-        display: none;
-        background-color: #222;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-      }
-    
-      .nav-menu.active {
-        display: flex;
-      }
-    
-      .nav-menu a {
-        float: none;
-        padding: 14px 16px;
-        width: 100%;
-        box-sizing: border-box;
-      }
-
-      .dropdown{
-        position: relative;
-        top: -150px;
-        left: 0;
-      }
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-        margin-top: 10px;
-    }
-
-    .dropdown-content a{
-        line-height: 1px;
-    } */
   }
   
   @media (max-width: 399px){

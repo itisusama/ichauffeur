@@ -33,7 +33,7 @@ html,body{overflow-x: hidden;}
 }
 .image-container-selectcar{
     background-color: #222;
-    height: 80px;
+    height: 100px;
     margin-top: -20px;
     padding-top: 10px;
     background-size: cover;
@@ -83,7 +83,7 @@ html,body{overflow-x: hidden;}
     background-image: url('../assets/banners/business.jpg');
 }
 .image-container-events{
-    background-image: url('../assets/banners/events.jpg');
+    background-image: url('../assets/banners/chauffeur2.jpeg');
 }
 .image-container-tours{
     background-image: url('../assets/banners/tours.jpg');
@@ -425,9 +425,6 @@ video {
     color: white;
 }
 
-.chauffer-cars-heading h1{
-    font-size: 54px;
-}
 
 /* Vehicle cards */
 .vehicle-cards{
@@ -769,8 +766,7 @@ video {
 .contact-us-heading{
     margin-top: 8%;
     color: white;
-    text-align: center;
-    font-size: 48px;
+    font-size: 38px;
 }
 
 .enquiry-section{
@@ -1249,6 +1245,10 @@ label {
         width: 80%; 
         margin-left: 10%;
     }  
+
+    .price-card-info{
+        width: 100%;
+    }
 }
 
 @media (max-width: 500px){
@@ -1312,6 +1312,12 @@ label {
     .sustainability-heading h3{
         font-size: 15px;
     }
+
+    .contact-us-heading{
+        margin-top: 50%;
+        color: white;
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 700px){
@@ -1355,6 +1361,46 @@ label {
     /* Join team part */
     .join-team-para h1{
         font-size: 25px;
+    }
+
+
+    .chauffer-cars-heading{
+        text-align: center;
+    }
+    
+    .chauffer-cars-heading h1{
+        font-size: 25px;
+    }
+
+    .chauffer-cars-heading h3{
+        font-size: 18px;
+    }
+
+    .chauffer-cars-heading h1{
+        font-size: 68px;
+    }
+    .chauffer-cars-heading h3{
+        font-size: 28px;
+    }
+    
+    .step-circles{
+        display: flex;
+        align-items: center;
+        gap: 0.2rem;
+    }
+    
+    .step-circles .step2{
+        background-color: #2689ee;
+        color: white;
+    }
+    
+    .step-circles p{
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
     }
 }
 
