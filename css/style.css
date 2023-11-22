@@ -1112,6 +1112,15 @@ label {
     justify-content: space-evenly;
 }
 
+
+.chauffer-cars-heading h1{
+    font-size: 68px;
+}
+
+.chauffer-cars-heading h3{
+    font-size: 42px;
+}
+
 @media screen and (max-width: 1029px) {
     .mySlides img{
         width: 90%;
