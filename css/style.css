@@ -1730,4 +1730,48 @@ label {
     .get-price-btn{
         width: 68%;
     }
+
+    .swiper-slide{
+        width: 50%;
+    }
+  }
+
+  @media (max-width: 425px){
+    .get-price-btn{
+        width: 80%;
+    }
+
+    .hero-form{
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 375px){
+    .get-price-btn{
+        width: 85%;
+    }
+
+    .hero-form{
+        width: 90%;
+    }
+  }
+
+  @media (max-width: 320px){
+    .price-card-info{
+        width: 95%;
+    }
+
+    .box-big-image img{
+        width: 310px;
+        height: 250px;
+    }
+    
+    .box-small-images img{
+        width: 310px;
+        height: 250px;
+    }
+
+    .service-card{
+        width: 310px;
+    }
   }
