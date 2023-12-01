@@ -17,8 +17,8 @@ html,body{
     padding: 0 50px;
 }
 .nav-number{
-    margin-top: 10px;
-    font-size: 17px;
+    margin-top: 28px;
+    font-size: 14px;
 }
 
 .nav-logo{
@@ -27,12 +27,19 @@ html,body{
     align-items: center;
 }
 .nav-logo img{
+    margin-top: 11px;
     width: 50px;
     height: 50px;
 }
+
+.logo-title{
+    margin-top: 11px;
+}
+
 .logo-title a{
     text-decoration: none;
     color: white;
+    font-size: 23px;
 }
 .nav-btn{   
     background-color: transparent;
@@ -70,14 +77,14 @@ html,body{
     background-color: transparent;
     overflow: hidden;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
-    margin-top: -55px;
+    margin-top: -52px;
 }
 
 .nav-menu a {
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 900;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -90,7 +97,7 @@ html,body{
     display: none;
     position: absolute;
     background-color: #222;
-    min-width: 160px;
+    min-width: 140px;
     z-index: 1;
 }
 
@@ -98,12 +105,12 @@ html,body{
     float: none;
     display: block;
     text-align: left;
-    font-size: small;
+    font-size: 11px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-    margin-top: 33px;
+    margin-top: 38px;
 }
 
 #nav-toggle{
