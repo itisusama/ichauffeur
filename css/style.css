@@ -1788,10 +1788,14 @@ label {
     }
 
     .get-price-btn{
-        width: 90%;
+        width: 95%;
     }
 
     .hero-form{
-        width: 100%;
+        width: 95%;
+    }
+
+    .hero-input-box {
+        padding: 3% 15%;
     }
   }
