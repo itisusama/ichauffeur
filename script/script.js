@@ -5,7 +5,7 @@
 
   mobileMenu.style.display = 'none'
   navToggle.addEventListener('click', function() {
-    
+    navToggle.style.top = '45px';
     hero.classList.toggle('hero-active');
 
     document.getElementById('navbar').classList.toggle('nav-toggle-color');

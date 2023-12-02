@@ -40,7 +40,7 @@ html,body{overflow-x: hidden;}
 }
 .image-container-selectcar{
     background-color: #222;
-    height: 100px;
+    height: 120px;
     margin-top: -20px;
     padding-top: 10px;
     background-size: cover;
@@ -488,7 +488,6 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px black;
 }
 
 /* Slider Section */
@@ -1353,17 +1352,6 @@ label {
         width: 75%;
     }
 
-    .cp-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .chauffeur-video img{
-        width: 100%;
-    }
-
     .event-paras{
         padding: 4% 8%;
         display: flex;
@@ -1718,6 +1706,21 @@ label {
   /* END: Swiper js car cards */
 
   /* Changes */
+
+  .v-card a h1{
+    font-size: 24px;
+  }
+
+  .v-card-specs span{
+    font-size: 14px;
+  }
+
+  @media (max-width: 1366px){
+    .get-price-btn{
+        width: 85%;
+    }
+   }
+
   @media (max-width: 1024px){
     .get-price-btn{
         width: 70%;
@@ -1725,7 +1728,13 @@ label {
     }
 
     .hero-form{
-        width: 60%;
+        width: 50%;
+    }
+
+    #nav-toggle{
+        position: absolute; 
+        right: 50px;
+        top: 52px;
     }
   }
 
@@ -1737,11 +1746,36 @@ label {
     .swiper-slide{
         width: 50%;
     }
+
+    .cp-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .chauffeur-video img{
+        width: 100%;
+    }
+
+    .journey-price, .cp-card-info{
+        width: 80%;
+    }
+
+    .price-card-info{
+        width: 100%;
+    }
+
+    #nav-toggle{
+        position: absolute; 
+        right: 50px;
+        top: 49px;
+    }
   }
 
   @media (max-width: 425px){
     .get-price-btn{
-        width: 90%;
+        width: 80%;
     }
 
     .hero-form{
@@ -1756,6 +1790,11 @@ label {
     .hero-heading h3{
         font-size: 14px;
     }
+    #nav-toggle{
+        position: absolute; 
+        right: 50px;
+        top: 54px;
+    }
   }
 
   @media (max-width: 375px){
@@ -1765,6 +1804,22 @@ label {
 
     .hero-form{
         width: 90%;
+    }
+    .cp-card-info p{
+        font-size: 14px;
+    }
+
+    .step-circles span{
+        font-size: 11px;
+    }
+    .step-circles p{
+        font-size: 12px;
+        width: 5px;
+        height: 5px;
+        text-align: center;
+        padding: 5px 10px 10px 7px;
+        border: 1px solid black;
+        border-radius: 50%;
     }
   }
 
@@ -1797,5 +1852,36 @@ label {
 
     .hero-input-box {
         padding: 3% 15%;
+    }
+
+    .booking-btn{
+        padding: 12px 10px 14px;
+    }
+
+    .v-card a img{
+        width: 310px;
+    }
+
+    .v-card a h1{
+        font-size: 22px;
+    }
+
+    .cars-guide-title h1{
+        font-size: 24px;
+    }
+
+    .cars-guide-title h4{
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .cp-card-info p{
+        font-size: 12px;
+    }
+
+    #nav-toggle{
+        position: absolute; 
+        right: 36px;
+        top: 61px;
     }
   }

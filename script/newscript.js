@@ -3,6 +3,7 @@ const navToggle = document.getElementById('nav-toggle');
 
   mobileMenu.style.display = 'none'
   navToggle.addEventListener('click', function() {
+    navToggle.style.top = '45px';
     document.getElementById('navbar').classList.toggle('nav-toggle-color');
     if (mobileMenu.style.display === 'block') {
       mobileMenu.style.display = 'none';
